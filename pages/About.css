@@ -1,0 +1,50 @@
+.MainAbout {
+    background: #eee;
+    height: 100%;
+    text-align: center;
+    box-sizing: content-box;
+}
+.AboutIntro {
+    box-sizing: border-box;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    position: absolute;
+    margin-top: 5%;
+    height: 20%;
+    background: beige;
+    /* text-align: justify; */
+    opacity: 0.3;
+    border: 2px solid navy;
+}
+.IntroText {
+    width: 100%;
+    height: 20%;
+    /* border: 3px solid black; */
+    text-emphasis: bold;
+    /* font-size: 16px; */
+    font-family: fantasy;
+    /* color: rebeccapurple; */
+    color: blue;
+
+    /* font-size: 150%; */
+    margin-top: 0.5%;
+    margin-bottom: 0%
+}
+
+.AboutResources {
+    width: 30%;
+    margin-left: 35%;
+    margin-top: 20%;
+    /* display: flex; */
+
+    position: absolute;
+    background: beige;
+    /* font-family: fantasy; */
+    /* color: rebeccapurple; */
+    opacity: 0.3;
+    text-emphasis: bold;
+    height: 20%;
+    border: 1px solid navy;
+}

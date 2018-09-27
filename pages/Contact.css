@@ -1,0 +1,28 @@
+.MainContact {
+    background: #eee;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.ContactIntro {
+    position: absolute;
+    width: 60%;
+    margin-top: 10%;
+    margin-left: 20%;
+    height: 0%;
+    color: blue;
+    /* border: 2px solid red */
+}
+.ContactText{
+    font-family: fantasy;
+    font-size: 3em;
+    /* border: 2px solid red */
+}
+.ContactDetails {
+    /* position: absolute; */
+    /* margin-top: 2% */
+    color: beige;
+    display: inline;
+    /* border: 2px solid red */
+}

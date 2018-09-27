@@ -1,0 +1,19 @@
+.MainBlog {
+    background: #eee;
+    height: 100%;
+    
+}
+.BlogIntro {
+    position: absolute;
+    text-align: center;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 10%;
+    color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: coral;
+    
+
+}

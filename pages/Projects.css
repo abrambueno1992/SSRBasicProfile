@@ -1,0 +1,30 @@
+.MainProject {
+    background: #eee;
+    height: 100%;
+    /* box-sizing: border-box; */
+    width: 100%;
+    /* display: inline-flex; */
+}
+.ProjectDetails {
+    text-align: center;
+    position: absolute;
+    color: wheat;
+}
+.ParticlesStyle {
+    /* width: 100%; */
+    background: navy;
+    /* flex-direction: row; */
+    width: 100%;
+    height: 100% ;
+    margin-bottom: 0%;
+    /* display: block; */
+    /* display: flex; */
+    /* resize: both;
+    scroll-behavior: smooth; */
+}
+.ProjectName {
+    /* text-emphasis: bold; */
+    text-decoration: underline;
+    color: orange;
+    margin-left: 0.5%
+}
