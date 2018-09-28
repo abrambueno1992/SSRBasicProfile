@@ -9,7 +9,7 @@ import './Navigation.css'
 // import 'semantic-ui-css/components/header.css'
 // import 'semantic-ui-css/components/button.css'
 // import 'semantic-ui-css/components/list.css'
-import 'semantic-ui-css/components/breadcrumb.css'
+// import 'semantic-ui-css/components/breadcrumb.css'
 // import  'semantic-ui-css/components/breadcrumbdiv.css'
 // import 'semantic-ui-css/components/icon.css'
 // import 'semantic-ui-css/themes/default/assets/fonts/icons.eot'
@@ -69,8 +69,13 @@ class Navigation extends Component {
         return (
             <div>
                 <Head>
-                    <link rel='stylesheet' href='/_next/static/style.css' />
-                    <link rel='stylesheet' href='semantic-ui-css/semantic.min.css' />
+                    <meta name="viewport" content="width=device-width, initial-scale=1" />
+                    <link
+                        rel="stylesheet"
+                        href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"
+                    />
+                    {/* <link rel='stylesheet' href='/../_next/static/style.css' /> */}
+                    {/* <link rel='stylesheet' href='semantic-ui-css/semantic.min.css' /> */}
                 </Head>
                 {/* <Button color="primary" >Hello</Button> */}
                 <Breadcrumb size="massive" style={{ height: "3%", marginLeft: "1%", display: 'flex' }}>
