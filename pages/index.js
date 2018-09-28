@@ -1,6 +1,7 @@
 
 import Particles from 'react-particles-js';
 import Navigation from '../components/Navigation'
+import './Home.css'
 
 import React, { Component } from 'react'
 export default class App extends Component {

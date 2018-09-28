@@ -1,6 +1,7 @@
 const withCSS = require('@zeit/next-css');
 
-module.exports = withCSS({
+module.exports = withCSS(
+  {
     webpack (config) {
       config.module.rules.push({
         test: /\.(png|svg|eot|otf|ttf|woff|woff2)$/,
@@ -10,11 +11,14 @@ module.exports = withCSS({
             limit: 100000,
             publicPath: './',
             outputPath: 'static/',
-            name: '[name].[ext]'
+            name: '[name].[ext]',
+            fallback: 'responsive-loader',
+    quality: 85
           }
         }
       })
   
       return config
     }
-  })
+  }
+  )

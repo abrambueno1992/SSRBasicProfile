@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Navigation from '../components/Navigation'
-// import NoteIMG from '../FrontEnd';
-// import NoteIMG2 from '../FullStack';
+// import NoteIMG from '../FrontEnd.png';
+// import NoteIMG2 from '../FullStack.png';
 import Particles from 'react-particles-js';
-import './Projects.css'
+import '../pages/Projects.css'
 export default class Project extends Component {
     constructor(props) {
         super(props)
@@ -18,12 +18,12 @@ export default class Project extends Component {
                         <a href="https://lambda-notes-backend.netlify.com/" className="ProjectName">Lambda Notes</a>
                         <a href="https://github.com/abrambueno1992/front-end-project-week" className="ProjectName">Github Code</a>
                     </h2>
-                    <img style={{ height: '50%', width: '50%' }} src="/static/FrontEnd.png" />
+                    <img style={{ height: '50%', width: '50%' }} src="../FullStack.png" />
                     <h2>Back End Project:
                         <a href="https://abrambueno-lamdanotes.netlify.com/" className="ProjectName">Built A database with authentication for Lambda Notes</a>
                         <a href="https://github.com/abrambueno1992/backendHeroku" className="ProjectName">Github Code</a>
                     </h2>
-                    <img style={{ height: '50%', width: '50%' }} src='/static/FullStack.png' />
+                    <img style={{ height: '50%', width: '50%' }} src='./FullStack.png' />
                     <h2>Capstone Project:
                         <a href="https://labs-next-leaderboard.herokuapp.com/" className="ProjectName">Next Steps: full stack application</a>
                         <a href="https://github.com/Lambda-School-Labs/CS9-LambdaNextLeaderboard" className="ProjectName">Github Code</a>

@@ -1,0 +1,33 @@
+
+
+
+.Home {
+    /* background: #222222; */
+    background: #eee;
+
+    height: 100%;
+    border: 2px solid rebeccapurple;
+    box-sizing: content-box;
+    /* display: inline; */
+    /* margin-top: 20%; */
+}
+.Intro {
+    text-align: center;
+    /*border: 2px solid blue;*/
+    width: 50%;
+    font-display: Arial;
+    /* height: 20%; */
+    margin-left: 25%;
+    position: absolute;
+    
+    margin-top: 15%;
+    /*margin-bottom: 70%;*/
+    background: navy;
+    border: 2px solid black;
+    color: beige;
+
+}
+.Text {
+    width: 100%;
+    height: 50%;
+}
