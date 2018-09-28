@@ -1,7 +1,23 @@
 import React, { Component } from 'react'
-import { Breadcrumb } from 'semantic-ui-react'
+// import {Breadcrumb} from 'semantic-ui-css/semantic.min.css';
+// import {  } from 'semantic-ui-react'
 import Link from 'next/link';
 import './Navigation.css'
+// import {Breadcrumb} 'semantic-ui-react';
+
+// import 'semantic-ui-css/components/modal.css'
+// import 'semantic-ui-css/components/header.css'
+// import 'semantic-ui-css/components/button.css'
+// import 'semantic-ui-css/components/list.css'
+import 'semantic-ui-css/components/breadcrumb.css'
+// import  'semantic-ui-css/components/breadcrumbdiv.css'
+// import 'semantic-ui-css/components/icon.css'
+// import 'semantic-ui-css/themes/default/assets/fonts/icons.eot'
+// import 'semantic-ui-css/themes/default/assets/fonts/icons.woff'
+// import 'semantic-ui-css/themes/default/assets/fonts/icons.woff2'
+import { Modal, Header, Button, List, Breadcrumb } from 'semantic-ui-react'
+import Head from 'next/head'
+
 class Navigation extends Component {
     constructor(props) {
         super(props);
@@ -49,22 +65,27 @@ class Navigation extends Component {
     }
 
     render() {
-
+        console.log(Breadcrumb, Breadcrumb.Divider.icon)
         return (
-            <div >
+            <div>
+                <Head>
+                    <link rel='stylesheet' href='/_next/static/style.css' />
+                    <link rel='stylesheet' href='semantic-ui-css/semantic.min.css' />
+                </Head>
+                {/* <Button color="primary" >Hello</Button> */}
                 <Breadcrumb size="massive" style={{ height: "3%", marginLeft: "1%", display: 'flex' }}>
                     {this.state.index !== 0 ?
-                        <div style={{display:'inline-flex'}} >
+                        <div style={{ display: 'inline-flex' }} >
                             <Breadcrumb.Section>
                                 <Link href="/">Home</Link>
                             </Breadcrumb.Section>
                             <Breadcrumb.Divider icon="right chevron" />
-                        </div> 
+                        </div>
                         : <div></div>}
 
 
                     {this.state.index !== 1 ?
-                        <div style={{display:'inline-flex'}}>
+                        <div style={{ display: 'inline-flex' }}>
                             <Breadcrumb.Section>
                                 <Link href="/projects">Projects</Link>
                             </Breadcrumb.Section>
@@ -73,7 +94,7 @@ class Navigation extends Component {
 
 
                     {this.state.index !== 2 ?
-                        <div style={{display:'inline-flex'}}>
+                        <div style={{ display: 'inline-flex' }}>
                             <Breadcrumb.Section>
                                 <Link href="/about">About</Link>
                             </Breadcrumb.Section>
@@ -82,7 +103,7 @@ class Navigation extends Component {
 
 
                     {this.state.index !== 3 ?
-                        <div style={{display:'inline-flex'}}>
+                        <div style={{ display: 'inline-flex' }}>
                             <Breadcrumb.Section>
                                 <Link href="/blog">Blog</Link>
                             </Breadcrumb.Section>
@@ -91,7 +112,7 @@ class Navigation extends Component {
 
 
                     {this.state.index !== 4 ?
-                        <div style={{display:'inline-flex'}}>
+                        <div style={{ display: 'inline-flex' }}>
                             <Breadcrumb.Section>
                                 <Link href="/contact">Contact</Link>
                             </Breadcrumb.Section>
@@ -99,8 +120,8 @@ class Navigation extends Component {
                         </div> : <div></div>}
 
 
-                    <div style={{display:'inline-flex'}}>
-                    <Breadcrumb.Section active>{this.state.current}</Breadcrumb.Section>
+                    <div style={{ display: 'inline-flex' }}>
+                        <Breadcrumb.Section active>{this.state.current}</Breadcrumb.Section>
 
                     </div>
                 </Breadcrumb>
