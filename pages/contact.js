@@ -8,7 +8,6 @@ class Contact extends Component {
         super(props)
     }
     render() {
-        // console.log(this.props.url.pathname)
       return (
         <div className="MainContact">
             <Navigation current={this.props.url.pathname} />
