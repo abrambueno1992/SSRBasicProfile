@@ -1,33 +1,96 @@
 
 
-
-.Home {
-    /* background: #222222; */
-    background: #eee;
-
-    height: 100%;
-    border: 2px solid rebeccapurple;
-    box-sizing: content-box;
-    /* display: inline; */
-    /* margin-top: 20%; */
-}
-.Intro {
-    text-align: center;
-    /*border: 2px solid blue;*/
-    width: 50%;
-    font-display: Arial;
-    /* height: 20%; */
-    margin-left: 25%;
-    position: absolute;
+@media only screen and (min-width: 1921px) {
     
-    margin-top: 15%;
-    /*margin-bottom: 70%;*/
-    background: navy;
-    border: 2px solid black;
-    color: beige;
-
 }
-.Text {
-    width: 100%;
-    height: 50%;
+/* Desktop */
+@media only screen and (max-width: 1680px) {
+    
+}
+/* Desktop */
+@media only screen and (max-width: 1920px) {
+    
+}
+/* Desktop */
+@media only screen and (max-width: 1680px) {
+    
+}
+
+/* Laptop */
+@media only screen and (max-width: 1440px) {
+    
+}
+/* Ipad Pro */
+@media only screen and (max-width: 1024px) {
+    
+}
+/* Ipad */
+@media only screen and (max-width: 768px) {
+    
+   
+    
+}
+/*Mobile */
+@media only screen and (max-width: 415px) {
+    
+}
+/* Mobile */
+@media only screen and (max-width: 360px) {
+    .Home {
+        /* background: #222222; */
+        background: #eee;
+        /* width: 360px;
+        height: 640px; */
+        /* height: 1024;
+        width: 768px; */
+        /* width: 100%;
+        height: 100%; */
+        width: 360px;
+        height: 600px;
+        border: 2px solid rebeccapurple;
+        box-sizing: border-box;
+        /* display: block; */
+        /* display: flex; */
+        /* display: inline; */
+        /* margin-top: 20%; */
+    }
+    .BreadCrumbIndex {
+        /* width: 360px;
+        background: red */
+    }
+    .Intro {
+        position: absolute;
+        text-align: center;
+        /* border: 1px solid blue; */
+        /* color: red; */
+        width: 80%;
+        
+        font-display: Arial;
+        /* height: 20%; */
+        margin-left: 5%;
+        
+        
+        margin-top: 15%;
+        /*margin-bottom: 70%;*/
+        /* background: navy; */
+        border: 2px solid black;
+        color: beige;
+    
+    }
+    .Text {
+        width: 100%;
+        height: 50%;
+        color: orange;
+        border: 1px solid yellow;
+    }
+    .ParticlesStyle {
+        display: flex;
+
+        /* background: red;  */
+         /* width: 100%;
+         height: 100%; */
+         width: 360px;
+        height: 600px;
+        
+    }
 }
