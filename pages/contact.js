@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import Navigation from '../components/Navigation'
 import './Contact.css';
 import Particles from 'react-particles-js';
-
+import Head from 'next/head'
 class Contact extends Component {
     constructor(props) {
         super(props)
@@ -10,6 +10,13 @@ class Contact extends Component {
     render() {
       return (
         <div className="MainContact">
+        <Head>
+          <title>Portfolio Project</title>
+          <meta charSet='utf-8' />
+          <meta name="description" content="Portfolio " />
+          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+          {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
+        </Head>
             <Navigation current={this.props.url.pathname} />
             <div className="ContactIntro">
             <h3 className="ContactText">My email: <span className="ContactDetails">abrambueno1992@gmail.com</span></h3>

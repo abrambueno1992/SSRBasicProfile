@@ -26,46 +26,42 @@
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
-    
-   
-    
-}
-/*Mobile */
-@media only screen and (max-width: 415px) {
-    
-}
-/* Mobile */
-@media only screen and (max-width: 360px) {
     .Nav {
-        height: 2%;
+        min-width: 416px;
+        max-width: 768px;
+        width: 100%;
+        border: 1px solid beige;
+        background-color: #eee;
     }
     .breadcrumb {
         /* width: 300px */
+        width: 768px;
+        width: 100%;
     }
     /* Style the list */
     ul.breadcrumb {
         /* padding: 10px 16px; */
         list-style: none;
         padding-left: 0%;
+        /* text-decoration: underline; */
         padding-right: 0%;
-        /* padding-right: 2%; */
-        /* display: none; */
-        /* margin-right: 2%; */
+       
         background-color: #eee;
+        /* cursor: pointer; */
     }
+    
     
     /* Display list items side by side */
     ul.breadcrumb {
         display: flex;
-        font-size: 16px;
+        /* align-items: center; */
+        font-size: 24px;
     }
     
     /* Add a slash symbol (/) before/behind each list item */
     ul.breadcrumb div, li+div, li::before {
         content: "/\00a0";
-        /* padding-right: 3px; */
-        margin-right: 8px;
-        /* margin-right: 18px; */
+        /* margin-left: 12px; */
         color: black;
         
     }
@@ -74,6 +70,113 @@
     ul.breadcrumb div li a {
         color: #0275d8;
         text-decoration: none;
+        margin-right: 32px
+        /* padding-left: 0%; */
+    }
+    
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }  
+   
+    
+}
+/*Mobile */
+@media only screen and (max-width: 415px) {
+    .Nav {
+        min-width: 376px;
+        max-width: 415px;
+        width: 100%;
+        
+        background-color: #eee;
+        border: 1px solid beige;
+
+    }
+    .breadcrumb {
+        /* width: 415px; */
+        /* width: 100%; */
+        /* border: 2px solid rebeccapurple; */
+    }
+    /* Style the list */
+    ul.breadcrumb {
+        /* padding: 10px 16px; */
+        list-style: none;
+        padding-left: 0%;
+        padding-right: 0%;
+         /* border: 1px solid rebeccapurple; */
+        /* background-color: #eee; */
+    }
+    
+    /* Display list items side by side */
+    ul.breadcrumb {
+        display: flex;
+        font-size: 20px;
+    }
+    
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb div, li+div, li::before {
+        content: "/\00a0";
+        /* margin-left: 6px; */
+
+        color: black;
+        
+    }
+    
+    /* Add a color to all links inside the list */
+    ul.breadcrumb div li a {
+        color: #0275d8;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }  
+}
+/* Mobile */
+@media only screen and (max-width: 375px) {
+    .Nav {
+        /* height: 2%; */
+        min-width: 360px;
+        max-width: 375px;
+        width: 100%;
+        background-color: #eee;
+        /* border: 1px solid beige; */
+    }
+    .breadcrumb {
+        min-width: 360px;
+        max-width: 375px;
+        width: 100%;
+    }
+    /* Style the list */
+    ul.breadcrumb {
+        list-style: none;
+        padding-left: 0%;
+        padding-right: 0%;
+        background-color: #eee;
+        display: flex;
+        font-size: 16px;
+    }
+    
+    /* Display list items side by side */
+ 
+    
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb div, li+div, li::before {
+        content: "/\00a0";
+        /* margin-left: 6px; */
+        color: black;
+        
+    }
+    
+    /* Add a color to all links inside the list */
+    ul.breadcrumb div li a {
+        color: #0275d8;
+        text-decoration: none;
+        margin-right: 19px;
     }
     
     /* Add a color on mouse-over */

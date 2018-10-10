@@ -1,19 +1,125 @@
-.MainBlog {
-    background: #eee;
-    height: 100%;
-    
-}
-.BlogIntro {
-    position: absolute;
-    text-align: center;
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 10%;
-    color: white;
-    font-family: fantasy;
-    font-weight: bold;
-    text-decoration: underline;
-    text-decoration-color: coral;
-    
 
+
+@media only screen and (min-width: 1921px) {
+    
 }
+/* Desktop */
+@media only screen and (max-width: 1680px) {
+    
+}
+/* Desktop */
+@media only screen and (max-width: 1920px) {
+    
+}
+/* Desktop */
+@media only screen and (max-width: 1680px) {
+    
+}
+
+/* Laptop */
+@media only screen and (max-width: 1440px) {
+    
+}
+/* Ipad Pro */
+@media only screen and (max-width: 1024px) {
+    
+}
+/* Ipad */
+@media only screen and (max-width: 768px) {
+    .MainBlog {
+        background: beige;
+        min-width: 416px;
+        max-width: 768px;
+        width: 100%;
+        height: 1024px;
+        
+    }
+    .BlogIntro {
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 10%;
+        color: white;
+        font-family: fantasy;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: coral;
+    }
+    .ParticlesBlog {
+        display: flex;
+        flex-direction: row;
+        /* min-width: 416px; */
+        /* max-width: 768px; */
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 0%;
+        height: 100%;
+        background:rgb(0, 24, 125);
+    }
+   .ParticlesSblog {
+       width: 100%
+   }
+    
+}
+/*Mobile */
+@media only screen and (max-width: 415px) {
+    .MainBlog {
+        background: #eee;
+        min-width: 376px;
+        max-width: 415px;
+        width: 100%;
+        height: 736px;
+        
+    }
+    .BlogIntro {
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 10%;
+        color: white;
+        font-family: fantasy;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: coral;
+    }
+    .ParticlesBlog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background:rgb(0, 24, 125);
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 375px) {
+    .MainBlog {
+        background: #eee;
+        min-width: 360px;
+        max-width: 375px;
+        width: 100%;
+        height: 667px;
+        
+    }
+    .BlogIntro {
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 10%;
+        color: white;
+        font-family: fantasy;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: coral;
+    }
+    .ParticlesBlog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background:rgb(0, 24, 125);
+    }
+}
+
+
+

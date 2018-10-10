@@ -50,17 +50,18 @@ class Navigation extends Component {
 
     render() {
         return (
-            <div>
+            <div className="Nav">
 
                 <ul className="breadcrumb">
-                    
+
 
                     {this.state.index !== 0 ?
                         <div  >
                             <li>
-                                <a href="/">
-                                    <Link href="/">Home</Link>
-                                </a>
+
+                                <Link href="/">
+                                    <a href="/">Home</a>
+                                </Link>
                             </li>
                         </div>
                         : <div></div>}
@@ -69,9 +70,10 @@ class Navigation extends Component {
                     {this.state.index !== 1 ?
                         <div >
                             <li>
-                            <a href="/projects">
-                                <Link href="/projects">Projects</Link>
-                            </a>
+                                <Link href="/projects">
+                                    <a href="/projects">Projects</a>
+
+                                </Link>
                             </li>
                         </div> : <div></div>}
 
@@ -79,9 +81,10 @@ class Navigation extends Component {
                     {this.state.index !== 2 ?
                         <div >
                             <li>
-                            <a href="/about">
-                                <Link href="/about">About</Link>
-                                </a>
+
+                                <Link href="/about">
+                                    <a href="/about">About</a>
+                                </Link>
                             </li>
                         </div> : <div></div>}
 
@@ -89,9 +92,10 @@ class Navigation extends Component {
                     {this.state.index !== 3 ?
                         <div >
                             <li>
-                            <a href="/blog">
-                                <Link href="/blog">Blog</Link>
-                                </a>
+
+                                <Link href="/blog">
+                                    <a href="/blog">Blog</a>
+                                </Link>
                             </li>
                         </div> : <div></div>}
 
@@ -99,16 +103,17 @@ class Navigation extends Component {
                     {this.state.index !== 4 ?
                         <div >
                             <li>
-                            <a href="/contact">
-                                <Link href="/contact">Contact</Link>
-                                </a>
+
+                                <Link href="/contact">
+                                    <a href="/contact">Contact</a>
+                                </Link>
                             </li>
                         </div> : <div></div>}
 
                     <div >
                         <li>
                             <a >
-                            {this.state.current}
+                                {this.state.current}
                             </a>
                         </li>
 

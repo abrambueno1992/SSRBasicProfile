@@ -26,53 +26,26 @@
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
-    
-   
-    
-}
-/*Mobile */
-@media only screen and (max-width: 415px) {
-    
-}
-/* Mobile */
-@media only screen and (max-width: 360px) {
+
     .Home {
-        /* background: #222222; */
         background: #eee;
-        /* width: 360px;
-        height: 640px; */
-        /* height: 1024;
-        width: 768px; */
-        /* width: 100%;
-        height: 100%; */
-        width: 360px;
-        height: 600px;
-        border: 2px solid rebeccapurple;
-        box-sizing: border-box;
-        /* display: block; */
-        /* display: flex; */
-        /* display: inline; */
-        /* margin-top: 20%; */
+        min-width: 416px;
+        max-width: 768px;
+        width: 100%;
+        height: 1024px;
+        box-sizing: content-box;
+        text-align: center;
     }
     .BreadCrumbIndex {
-        /* width: 360px;
-        background: red */
+       
     }
     .Intro {
         position: absolute;
         text-align: center;
-        /* border: 1px solid blue; */
-        /* color: red; */
         width: 80%;
-        
         font-display: Arial;
-        /* height: 20%; */
         margin-left: 5%;
-        
-        
         margin-top: 15%;
-        /*margin-bottom: 70%;*/
-        /* background: navy; */
         border: 2px solid black;
         color: beige;
     
@@ -83,14 +56,98 @@
         color: orange;
         border: 1px solid yellow;
     }
-    .ParticlesStyle {
+    .ParticlesStyleIndex {
         display: flex;
+        background:rgb(0, 24, 125);
+        height: 100%;
+        width: 100%;
 
-        /* background: red;  */
-         /* width: 100%;
-         height: 100%; */
-         width: 360px;
-        height: 600px;
+    }
+    .ParticlesShome {
+        width: 100%
+    }
+    
+}
+/*Mobile */
+@media only screen and (max-width: 415px) {
+    .Home {
+        background: #eee;
+        min-width: 376px;
+        max-width: 415px;
+        width: 100%;
+        height: 736px;
+        text-align: center;
+        box-sizing: content-box;
+    }
+    .BreadCrumbIndex {
+       
+    }
+    .Intro {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-display: Arial;
+        margin-left: 5%;
+        margin-top: 15%;
+        border: 2px solid black;
+        color: beige;
+    
+    }
+    .Text {
+        width: 100%;
+        height: 50%;
+        color: orange;
+        border: 1px solid yellow;
+    }
+    .ParticlesStyleIndex {
+        display: flex;
+        background:rgb(0, 24, 125);
+        /* max-width: 415px; */
+        height: 100%;
+        width: 100%;
+        /* height: 600px; */
+        
+    }
+}
+/* Mobile */
+@media only screen and (max-width: 375px) {
+    .Home {
+        background: #eee;
+        min-width: 360px;
+        max-width: 375px;
+        width: 100%;
+        height: 667px;
+        text-align: center;
+        box-sizing: content-box;
+    }
+    .BreadCrumbIndex {
+       
+    }
+    .Intro {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-display: Arial;
+        margin-left: 5%;
+        margin-top: 15%;
+        /* border: 2px solid black; */
+        color: beige;
+    
+    }
+    .Text {
+        width: 100%;
+        height: 50%;
+        color: orange;
+        /* border: 1px solid red; */
+    }
+    .ParticlesStyleIndex {
+        display: flex;
+        /* max-width: 375px; */
+        width: 100%;
+        /* background: red; */
+         background:rgb(0, 24, 125);
+        /* height: 667px; */
+        height: 100%;
         
     }
 }
