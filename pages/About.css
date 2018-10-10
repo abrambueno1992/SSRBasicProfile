@@ -22,7 +22,56 @@
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
+    .MainAbout {
+        /* background: #eee; */
+        height: 768px;
+        min-width: 769px;
+        max-width: 1024px;
+        width: 100%;
+        box-sizing: content-box;
+        text-align: center;
+    }
+    .AboutIntro {
+        /* box-sizing: border-box; */
+        text-align: left;
+        width: 50%;
+        margin-left: 25%;
+        position: absolute;
+        margin-top: 15%;
+        background: beige;
+        opacity: 0.75;
+        border: 1px solid yellow;
+    }
+    .IntroText {
+        width: 100%;
+        margin-left: 2%;
+        margin-right: 2%;
+        text-emphasis: bold;
+        font-family: fantasy;
+        color: blue;
+        margin-top: 0.5%;
+        margin-bottom: 0%
+    }
     
+    .AboutResources {
+        width: 60%;
+        margin-left: 20%;
+        margin-top: 40%;
+        position: absolute;
+        background: beige;
+        opacity: 0.7;
+        text-emphasis: bold;
+        border: 1px solid navy;
+    }
+    .ParticlesStyleAbout {
+        display: flex;
+        background:rgb(0, 24, 125);
+        width: 100%;
+        height: 100%;
+    }
+    .ParticlesSabout {
+        width: 100%
+    }
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
@@ -97,7 +146,7 @@
         width: 90%;
         margin-left: 3.5%;
         position: absolute;
-        margin-top: 10%;
+        /* margin-top: 10%; */
         background: beige;
         opacity: 0.7;
         border: 1px solid yellow;
@@ -137,7 +186,6 @@
 /* Mobile */
 @media only screen and (max-width: 375px) {
     .MainAbout {
-        /* background: #eee; */
         min-width: 360px;
         max-width: 375px;
         width: 100%;
@@ -146,16 +194,11 @@
         box-sizing: content-box;
     }
     .AboutIntro {
-        /* box-sizing: border-box; */
         text-align: left;
-        /* padding: 4%; */
         width: 90%;
-        margin-left: 3.5%;
+        margin-left: 5%;
         position: absolute;
-        margin-top: 35%;
-        /* height: 50%; */
         background: beige;
-        /* text-align: justify; */
         opacity: 0.7;
         border: 1px solid yellow;
     }
@@ -166,7 +209,6 @@
         text-emphasis: bold;
         font-family: fantasy;
         color: blue;
-    
         margin-top: 0.5%;
         margin-bottom: 0%
     }
@@ -174,7 +216,7 @@
     .AboutResources {
         width: 60%;
         margin-left: 20%;
-        margin-top: 80%;
+        margin-top: 85%;
         position: absolute;
         background: beige;
         opacity: 0.7;

@@ -22,7 +22,40 @@
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
-    
+    .MainBlog {
+        background: beige;
+        min-width: 769px;
+        max-width: 1024px;
+        width: 100%;
+        height: 768px;
+        
+    }
+    .BlogIntro {
+        position: absolute;
+        text-align: center;
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 10%;
+        color: white;
+        font-family: fantasy;
+        font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: coral;
+    }
+    .ParticlesBlog {
+        display: flex;
+        flex-direction: row;
+        /* min-width: 416px; */
+        /* max-width: 768px; */
+        width: 100%;
+        margin-left: 0%;
+        padding-right: 0%;
+        height: 100%;
+        background:rgb(0, 24, 125);
+    }
+   .ParticlesSblog {
+       width: 100%
+   }
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {

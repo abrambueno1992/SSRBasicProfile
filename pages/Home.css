@@ -22,7 +22,45 @@
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
+    .Home {
+        background: #eee;
+        min-width: 769px;
+        max-width: 1024px;
+        width: 100%;
+        height: 1024px;
+        box-sizing: content-box;
+        text-align: center;
+    }
+    .BreadCrumbIndex {
+       
+    }
+    .Intro {
+        position: absolute;
+        text-align: center;
+        width: 80%;
+        font-display: Arial;
+        margin-left: 5%;
+        margin-top: 15%;
+        border: 2px solid black;
+        color: beige;
     
+    }
+    .Text {
+        width: 100%;
+        height: 50%;
+        color: orange;
+        border: 1px solid yellow;
+    }
+    .ParticlesStyleIndex {
+        display: flex;
+        background:rgb(0, 24, 125);
+        height: 100%;
+        width: 100%;
+
+    }
+    .ParticlesShome {
+        width: 100%
+    }
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
@@ -87,7 +125,7 @@
         text-align: center;
         width: 80%;
         font-display: Arial;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 15%;
         border: 2px solid black;
         color: beige;
@@ -128,7 +166,7 @@
         text-align: center;
         width: 80%;
         font-display: Arial;
-        margin-left: 5%;
+        margin-left: 10%;
         margin-top: 15%;
         /* border: 2px solid black; */
         color: beige;
