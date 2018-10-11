@@ -2,23 +2,221 @@
 
 @media only screen and (min-width: 1921px) {
     
+        .Nav {
+            min-width: 1921px;
+            max-width: 2560px;
+            width: 100%;
+            border: 1px solid beige;
+            background-color: #eee;
+        }
+        .breadcrumb {
+            width: 768px;
+            width: 100%;
+        }
+        /* Style the list */
+        ul.breadcrumb {
+            /* padding: 10px 16px; */
+            list-style: none;
+            padding-left: 0%;
+            /* text-decoration: underline; */
+            padding-right: 0%;
+           
+            background-color: #eee;
+            /* cursor: pointer; */
+        }
+        
+        
+        /* Display list items side by side */
+        ul.breadcrumb {
+            display: flex;
+            font-size: 24px;
+        }
+        
+        /* Add a slash symbol (/) before/behind each list item */
+        ul.breadcrumb div, li+div, li::before {
+            content: "/\00a0";
+            color: black;
+            
+        }
+        
+        /* Add a color to all links inside the list */
+        ul.breadcrumb div li a {
+            color: #0275d8;
+            text-decoration: none;
+            margin-right: 42px;
+            background: beige;
+            text-decoration: underline;
+        }
+        
+        /* Add a color on mouse-over */
+        ul.breadcrumb li a:hover {
+            color: #01447e;
+            text-decoration: underline;
+        }
 }
-/* Desktop */
-@media only screen and (max-width: 1680px) {
-    
-}
+
 /* Desktop */
 @media only screen and (max-width: 1920px) {
+    .Nav {
+        min-width: 1681px;
+        max-width: 1920px;
+        width: 100%;
+        border: 1px solid beige;
+        background-color: #eee;
+    }
+    .breadcrumb {
+        width: 768px;
+        width: 100%;
+    }
+    /* Style the list */
+    ul.breadcrumb {
+        /* padding: 10px 16px; */
+        list-style: none;
+        padding-left: 0%;
+        /* text-decoration: underline; */
+        padding-right: 0%;
+       
+        background-color: #eee;
+        /* cursor: pointer; */
+    }
     
+    
+    /* Display list items side by side */
+    ul.breadcrumb {
+        display: flex;
+        font-size: 24px;
+    }
+    
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb div, li+div, li::before {
+        content: "/\00a0";
+        color: black;
+        
+    }
+    
+    /* Add a color to all links inside the list */
+    ul.breadcrumb div li a {
+        color: #0275d8;
+        text-decoration: none;
+        margin-right: 42px;
+        background: beige;
+        text-decoration: underline;
+    }
+    
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
 }
 /* Desktop */
 @media only screen and (max-width: 1680px) {
+    .Nav {
+        min-width: 1441px;
+        max-width: 1680px;
+        width: 100%;
+        border: 1px solid beige;
+        background-color: #eee;
+    }
+    .breadcrumb {
+        width: 768px;
+        width: 100%;
+    }
+    /* Style the list */
+    ul.breadcrumb {
+        /* padding: 10px 16px; */
+        list-style: none;
+        padding-left: 0%;
+        /* text-decoration: underline; */
+        padding-right: 0%;
+       
+        background-color: #eee;
+        /* cursor: pointer; */
+    }
     
+    
+    /* Display list items side by side */
+    ul.breadcrumb {
+        display: flex;
+        font-size: 24px;
+    }
+    
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb div, li+div, li::before {
+        content: "/\00a0";
+        color: black;
+        
+    }
+    
+    /* Add a color to all links inside the list */
+    ul.breadcrumb div li a {
+        color: #0275d8;
+        text-decoration: none;
+        margin-right: 42px;
+        background: beige;
+        text-decoration: underline;
+    }
+    
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
 }
 
 /* Laptop */
 @media only screen and (max-width: 1440px) {
+    .Nav {
+        min-width: 1025px;
+        max-width: 1440px;
+        width: 100%;
+        border: 1px solid beige;
+        background-color: #eee;
+    }
+    .breadcrumb {
+        width: 768px;
+        width: 100%;
+    }
+    /* Style the list */
+    ul.breadcrumb {
+        /* padding: 10px 16px; */
+        list-style: none;
+        padding-left: 0%;
+        /* text-decoration: underline; */
+        padding-right: 0%;
+       
+        background-color: #eee;
+        /* cursor: pointer; */
+    }
     
+    
+    /* Display list items side by side */
+    ul.breadcrumb {
+        display: flex;
+        font-size: 24px;
+    }
+    
+    /* Add a slash symbol (/) before/behind each list item */
+    ul.breadcrumb div, li+div, li::before {
+        content: "/\00a0";
+        color: black;
+        
+    }
+    
+    /* Add a color to all links inside the list */
+    ul.breadcrumb div li a {
+        color: #0275d8;
+        text-decoration: none;
+        margin-right: 42px;
+        background: beige;
+        text-decoration: underline;
+    }
+    
+    /* Add a color on mouse-over */
+    ul.breadcrumb li a:hover {
+        color: #01447e;
+        text-decoration: underline;
+    }
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
