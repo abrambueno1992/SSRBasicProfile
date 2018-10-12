@@ -9,6 +9,7 @@ export default class App extends Component {
   constructor(props) {
     super(props);
   }
+
   
   render() {
 
@@ -25,7 +26,7 @@ export default class App extends Component {
           <Navigation current={this.props.url.pathname} />
         </div>
         <div className="Intro">
-          <div className="Text">Hello, my name is Abraham Bueno, and I'm a FULL STACK web developer</div>
+          <div className="Text">Hello, my name is Abraham Bueno, and I'm a Full Stack Web Developer</div>
           <div className="Text">The Stack I use is Mongo DB, Express, React, Redux, and Node.</div>
         </div>
         <div className="ParticlesStyleIndex">
