@@ -53,71 +53,100 @@ class Navigation extends Component {
             <div className="Nav">
 
                 <ul className="breadcrumb">
-
-
                     {this.state.index !== 0 ?
-                        <div  >
+                        <div className="inactiveLink">
                             <li>
-
                                 <Link href="/">
-                                    <a href="/">Home</a>
+                                    <a >Home</a>
                                 </Link>
                             </li>
                         </div>
-                        : <div></div>}
+                        : 
+                        <div className="activeLink" >
+                        <li>
+                            <Link href="/">
+                                <a className="activeLinkInner" >Home</a>
+                            </Link>
+                        </li>
+                    </div>    
+                    }
 
 
                     {this.state.index !== 1 ?
-                        <div >
+                        <div className="inactiveLink">
                             <li>
                                 <Link href="/projects">
-                                    <a href="/projects">Projects</a>
-
+                                    <a >Projects</a>
                                 </Link>
                             </li>
-                        </div> : <div></div>}
+                        </div> : 
+                        <div className="activeLink">
+                            <li>
+                                <Link href="/projects">
+                                    <a className="activeLinkInner" >Projects</a>
+                                </Link>
+                            </li>
+                        </div>}
 
 
                     {this.state.index !== 2 ?
-                        <div >
+                        <div className="inactiveLink">
                             <li>
-
                                 <Link href="/about">
-                                    <a href="/about">About</a>
+                                    <a  >About</a>
                                 </Link>
                             </li>
-                        </div> : <div></div>}
+                        </div> : 
+                        <div className="activeLink">
+                            <li>
+                                <Link href="/about">
+                                    <a className="activeLinkInner" >About</a>
+                                </Link>
+                            </li>
+                        </div>}
 
 
                     {this.state.index !== 3 ?
-                        <div >
+                        <div className="inactiveLink">
                             <li>
-
                                 <Link href="/blog">
-                                    <a href="/blog">Blog</a>
+                                    <a >Blog</a>
                                 </Link>
                             </li>
-                        </div> : <div></div>}
+                        </div> : 
+                        <div className="activeLink">
+                            <li>
+                                <Link href="/blog">
+                                    <a className="activeLinkInner" >Blog</a>
+                                </Link>
+                            </li>
+                        </div>}
 
 
                     {this.state.index !== 4 ?
-                        <div >
+                        <div className="inactiveLink">
                             <li>
-
                                 <Link href="/contact">
-                                    <a href="/contact">Contact</a>
+                                    <a >Contact</a>
                                 </Link>
                             </li>
-                        </div> : <div></div>}
+                        </div> : 
+                        <div className="activeLink">
+                            <li>
+                                <Link href="/contact">
+                                    <a className="activeLinkInner" >Contact</a>
+                                </Link>
+                            </li>
+                        </div>}
 
-                    <div >
-                        <li>
-                            <a >
+                    {/* <div className="activeLink">
+                        <li >
+                            <a className="activeLinkInner" >
                                 {this.state.current}
                             </a>
                         </li>
 
-                    </div>
+                    </div> */}
                 </ul>
                 {/* </Breadcrumb> */}
             </div>

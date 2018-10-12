@@ -93,12 +93,20 @@
         color: black;
         
     }
+    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
+        margin-left: 0%;
+        padding-left: 0%;
+        margin-right: 0%;
+        padding-right: 0%;
+        content: "\003e\003e\003e";
+        color: red;
+    }
     
     /* Add a color to all links inside the list */
     ul.breadcrumb div li a {
         color: #0275d8;
         text-decoration: none;
-        margin-right: 42px;
+        margin-right: 0%;
         background: beige;
         text-decoration: underline;
     }
@@ -107,6 +115,27 @@
     ul.breadcrumb li a:hover {
         color: #01447e;
         text-decoration: underline;
+    }
+    .inactiveLink {
+        width: 10%;
+        /* background:rgb(0, 24, 125); */
+        margin-right: 0%;
+        border: 1px solid red;
+    }
+    .activeLink {
+        /* background: rebeccapurple; */
+        color: red;
+        background:rgb(0, 24, 125);
+        width: 10%;
+        border: 1px solid red;
+        margin-right: 0%;
+        padding-right: 0%;
+        /* padding-left: 42px; */
+        
+    }
+    .activeLinkInner {
+        border: 1px solid burlywood;
+        
     }
 }
 /* Desktop */
