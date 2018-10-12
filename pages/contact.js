@@ -21,7 +21,7 @@ class Contact extends Component {
         <div className="ContactIntro">
           <div className="ContactText">My email: <span className="ContactDetails">abrambueno1992@gmail.com</span></div>
           <div className="ContactText">My phone number: <span className="ContactDetails">773-240-4646</span></div>
-          <div className="ContactText">My LinkedIn:  <a className="ContactDetails" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/" >LinkedIn</a></div>
+          <div className="ContactText">My LinkedIn:  <a target="_blank" className="ContactDetails" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/" >LinkedIn</a></div>
           <div className="ContactText">Currently living in: <span className="ContactDetails">Chicago, willing to relocate.</span></div>
 
         </div>

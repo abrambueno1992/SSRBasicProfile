@@ -28,13 +28,13 @@ class About extends Component {
         </div>
         <div className="AboutResources">
           <div className="IntroText">Personal Profiles</div>
-          <a href="https://github.com/abrambueno1992">
+          <a target="_blank" href="https://github.com/abrambueno1992">
             <div className="AboutTopic">Github</div>
           </a>
-          <a href="https://www.thehackhive.com/portfolio/abrambueno1992">
+          <a target="_blank" href="https://www.thehackhive.com/portfolio/abrambueno1992">
             <div className="AboutTopic">Hack Hive</div>
           </a>
-          <a href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
+          <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
             <div className="AboutTopic">Linkedin</div>
           </a>
         </div>

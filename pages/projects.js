@@ -23,18 +23,18 @@ export default class Project extends Component {
                 <div className="ProjectDetails">
                     <h1>Three main Projects</h1>
                     <h2>Front End Project:
-                        <a href="https://lambda-notes-backend.netlify.com/" className="ProjectName">Lambda Notes</a>
-                        <a href="https://github.com/abrambueno1992/front-end-project-week" className="ProjectName">Github Code</a>
+                        <a  target="_blank" href="https://lambda-notes-backend.netlify.com/" className="ProjectName">Lambda Notes</a>
+                        <a  target="_blank" href="https://github.com/abrambueno1992/front-end-project-week" className="ProjectName">Github Code</a>
                     </h2>
                     <img className="Images" src="/static/FrontEnd.webp" />
                     <h2>Back End Project:
-                        <a href="https://abrambueno-lamdanotes.netlify.com/" className="ProjectName">Built A database with authentication for Lambda Notes</a>
-                        <a href="https://github.com/abrambueno1992/backendHeroku" className="ProjectName">Github Code</a>
+                        <a target="_blank" href="https://abrambueno-lamdanotes.netlify.com/" className="ProjectName">Built A database with authentication for Lambda Notes</a>
+                        <a target="_blank" href="https://github.com/abrambueno1992/backendHeroku" className="ProjectName">Github Code</a>
                     </h2>
                     <img className="Images" src='/static/FullStack.webp' />
                     <h2>Capstone Project:
-                        <a href="https://labs-next-leaderboard.herokuapp.com/" className="ProjectName">Next Steps: full stack application</a>
-                        <a href="https://github.com/Lambda-School-Labs/CS9-LambdaNextLeaderboard" className="ProjectName">Github Code</a>
+                        <a target="_blank" href="https://labs-next-leaderboard.herokuapp.com/" className="ProjectName">Next Steps: full stack application</a>
+                        <a target="_blank" href="https://github.com/Lambda-School-Labs/CS9-LambdaNextLeaderboard" className="ProjectName">Github Code</a>
                     </h2>
                     <img className="Images" src="/static/LeadboardExample.webp" />
                 </div>
