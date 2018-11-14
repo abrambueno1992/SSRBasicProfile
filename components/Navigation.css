@@ -1,694 +1,695 @@
-
-
 @media only screen and (min-width: 1921px) {
-    
-        .Nav {
-            min-width: 1921px;
-            max-width: 2560px;
-            width: 100%;
-            border: 1px solid beige;
-            background-color: #eee;
-        }
-        .breadcrumb {
-            width: 768px;
-            width: 100%;
-        }
-        /* Style the list */
-        ul.breadcrumb {
-            /* padding: 10px 16px; */
-            list-style: none;
-            padding-left: 0%;
-            /* text-decoration: underline; */
-            padding-right: 0%;
-           
-            background-color: #eee;
-            /* cursor: pointer; */
-        }
-        
-        
-        /* Display list items side by side */
-        ul.breadcrumb {
-            display: flex;
-            font-size: 24px;
-            padding-left: 0%;
-            padding-right: 0%;
-        }
-        
-        /* Add a slash symbol (/) before/behind each list item */
-        ul.breadcrumb div, li+div, li::before {
-            content: "/\00a0";
-            color: black;
-            
-        }
-        
-        /* Add a color to all links inside the list */
-        ul.breadcrumb div li a {
-            color: #0275d8;
-            text-decoration: none;
-            margin-right: 0%;
-            background: beige;
-            text-decoration: underline;
-        }
-        
-        /* Add a color on mouse-over */
-        ul.breadcrumb li a:hover {
-            color: #01447e;
-            text-decoration: underline;
-        }
-        ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-            margin-left: 0%;
-            padding-left: 0%;
-            margin-right: 0%;
-            padding-right: 0%;
-            content: "\003e\003e\003e";
-            color: red;
-        }
-        .inactiveLink {
-            width: 16%;
-            /* background:rgb(0, 24, 125); */
-            text-align: center;
-            margin-right: 0%;
-            border: 1px solid violet;
-            background: beige;
-            margin-right: 1%;
-        }
-        .activeLink {
-            /* background: rebeccapurple; */
-            color: red;
+  .Nav {
+    min-width: 1921px;
+    max-width: 2560px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    /* text-decoration: underline; */
+    padding-right: 0%;
+
+    background-color: #eee;
+    /* cursor: pointer; */
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    font-size: 24px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    color: black;
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0%;
+    background: beige;
+    text-decoration: underline;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    /* content: "\003e\003e\003e"; */
+    /* color: red; */
+  }
+  .inactiveLink {
+    width: 16%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 1%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    /* color: red;
             background:rgb(0, 24, 125);
             text-align: center;
             width: 16%;
-            border: 1px solid violet;
-            margin-right: 1%;
-            padding-right: 0%;
-            /* padding-left: 42px; */
-            
-        }
-        .activeLinkInner {
-            border: 1px solid burlywood;
-        }
+            border: 1px solid violet; */
+    margin-right: 1%;
+    /* padding-right: 0%; */
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 
 /* Desktop */
 @media only screen and (max-width: 1920px) {
-    .Nav {
-        min-width: 1681px;
-        max-width: 1920px;
-        width: 100%;
-        border: 1px solid beige;
-        background-color: #eee;
-    }
-    .breadcrumb {
-        width: 768px;
-        width: 100%;
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        /* padding: 10px 16px; */
-        list-style: none;
-        padding-left: 0%;
-        padding-right: 0%;
-        background-color: #eee;
-    }
-    
-    
-    /* Display list items side by side */
-    ul.breadcrumb {
-        display: flex;
-        font-size: 24px;
-    }
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        color: black;
-        
-    }
-    
-    
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0%;
-        background: beige;
-        text-decoration: underline;
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    .inactiveLink {
-        width: 8%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        margin-right: 0%;
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 1%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 8%;
-        border: 1px solid violet;
-        margin-right: 1%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }
+  .Nav {
+    min-width: 1681px;
+    max-width: 1920px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #eee;
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    font-size: 24px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    color: black;
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0%;
+    background: beige;
+    text-decoration: underline;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+  .inactiveLink {
+    width: 8%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 1%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 8%;
+    border: 1px solid violet;
+    margin-right: 1%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 /* Desktop */
 @media only screen and (max-width: 1680px) {
-    .Nav {
-        min-width: 1441px;
-        max-width: 1680px;
-        width: 100%;
-        border: 1px solid beige;
-        background-color: #eee;
-    }
-    .breadcrumb {
-        width: 768px;
-        width: 100%;
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        /* padding: 10px 16px; */
-        list-style: none;
-        padding-left: 0%;
-        /* text-decoration: underline; */
-        padding-right: 0%;
-       
-        background-color: #eee;
-        /* cursor: pointer; */
-    }
-    
-    
-    /* Display list items side by side */
-    ul.breadcrumb {
-        display: flex;
-        font-size: 24px;
-    }
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        color: black;
-        
-    }
-    
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0%;
-        background: beige;
-        text-decoration: underline;
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    .inactiveLink {
-        width: 8%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        margin-right: 0%;
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 1%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 8%;
-        border: 1px solid violet;
-        margin-right: 1%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }
+  .Nav {
+    min-width: 1441px;
+    max-width: 1680px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    /* text-decoration: underline; */
+    padding-right: 0%;
+
+    background-color: #eee;
+    /* cursor: pointer; */
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    font-size: 24px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    color: black;
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0%;
+    background: beige;
+    text-decoration: underline;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+  .inactiveLink {
+    width: 8%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 1%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 8%;
+    border: 1px solid violet;
+    margin-right: 1%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 
 /* Laptop */
 @media only screen and (max-width: 1440px) {
-    .Nav {
-        min-width: 1025px;
-        max-width: 1440px;
-        width: 100%;
-        border: 1px solid beige;
-        background-color: #eee;
-    }
-    .breadcrumb {
-        width: 768px;
-        width: 100%;
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        /* padding: 10px 16px; */
-        list-style: none;
-        padding-left: 0%;
-        /* text-decoration: underline; */
-        padding-right: 0%;
-       
-        background-color: #eee;
-        /* cursor: pointer; */
-    }
-    
-    
-    /* Display list items side by side */
-    ul.breadcrumb {
-        display: flex;
-        font-size: 22px;
-    }
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        color: black;
-        
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0px;
-        background: beige;
-        text-decoration: underline;
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }
-    .inactiveLink {
-        width: 8%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 1%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 8%;
-        border: 1px solid violet;
-        margin-right: 1%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }
+  .Nav {
+    min-width: 1025px;
+    max-width: 1440px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    /* text-decoration: underline; */
+    padding-right: 0%;
+
+    background-color: #eee;
+    /* cursor: pointer; */
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    font-size: 22px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    color: black;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0px;
+    background: beige;
+    text-decoration: underline;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .inactiveLink {
+    width: 8%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 1%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 8%;
+    border: 1px solid violet;
+    margin-right: 1%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
-    
-        .Nav {
-            min-width: 769px;
-            max-width: 1024px;
-            width: 100%;
-            border: 1px solid beige;
-            background-color: #eee;
-        }
-        .breadcrumb {
-            /* width: 300px */
-            width: 768px;
-            width: 100%;
-        }
-        /* Style the list */
-        ul.breadcrumb {
-            /* padding: 10px 16px; */
-            list-style: none;
-            padding-left: 0%;
-            /* text-decoration: underline; */
-            padding-right: 0%;
-           
-            background-color: #eee;
-            /* cursor: pointer; */
-        }
-        
-        
-        /* Display list items side by side */
-        ul.breadcrumb {
-            display: flex;
-            /* align-items: center; */
-            font-size: 24px;
-        }
-        
-        /* Add a slash symbol (/) before/behind each list item */
-        ul.breadcrumb div, li+div, li::before {
-            content: "/\00a0";
-            /* margin-left: 12px; */
-            color: black;
-            
-        }
-        ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-            margin-left: 0%;
-            padding-left: 0%;
-            margin-right: 0%;
-            padding-right: 0%;
-            content: "\003e\003e\003e";
-            color: red;
-        }
-        /* Add a color to all links inside the list */
-        ul.breadcrumb div li a {
-            color: #0275d8;
-            text-decoration: none;
-            margin-right: 0px;
-            background: beige;
-            text-decoration: underline;
-            /* padding-left: 0%; */
-        }
-        
-        /* Add a color on mouse-over */
-        ul.breadcrumb li a:hover {
-            color: #01447e;
-            text-decoration: underline;
-        }
-        .inactiveLink {
-            width: 12%;
-            /* background:rgb(0, 24, 125); */
-            text-align: center;
-            margin-right: 0%;
-            border: 1px solid violet;
-            background: beige;
-            margin-right: 1%;
-        }
-        .activeLink {
-            /* background: rebeccapurple; */
-            color: red;
-            background:rgb(0, 24, 125);
-            text-align: center;
-            width: 12%;
-            border: 1px solid violet;
-            margin-right: 0.5%;
-            padding-right: 0%;
-            /* padding-left: 42px; */
-            
-        }
-        .activeLinkInner {
-            border: 1px solid burlywood;
-        }  
+  .Nav {
+    min-width: 769px;
+    max-width: 1024px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    /* width: 300px */
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    /* text-decoration: underline; */
+    padding-right: 0%;
+
+    background-color: #eee;
+    /* cursor: pointer; */
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    /* align-items: center; */
+    font-size: 24px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    /* margin-left: 12px; */
+    color: black;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0px;
+    background: beige;
+    text-decoration: underline;
+    /* padding-left: 0%; */
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .inactiveLink {
+    width: 12%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 1%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 12%;
+    border: 1px solid violet;
+    margin-right: 0.5%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
-    .Nav {
-        min-width: 416px;
-        max-width: 768px;
-        width: 100%;
-        border: 1px solid beige;
-        background-color: #eee;
-    }
-    .breadcrumb {
-        /* width: 300px */
-        width: 768px;
-        width: 100%;
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        /* padding: 10px 16px; */
-        list-style: none;
-        padding-left: 0%;
-        /* text-decoration: underline; */
-        padding-right: 0%;
-       
-        background-color: #eee;
-        /* cursor: pointer; */
-    }
-    
-    
-    /* Display list items side by side */
-    ul.breadcrumb {
-        display: flex;
-        /* align-items: center; */
-        font-size: 24px;
-    }
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        /* margin-left: 12px; */
-        color: black;
-        
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0px
-        /* padding-left: 0%; */
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }  
-    .inactiveLink {
-        width: 15%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        margin-right: 0%;
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 2%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 15%;
-        border: 1px solid violet;
-        margin-right: 2%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }  
-    
+  .Nav {
+    min-width: 416px;
+    max-width: 768px;
+    width: 100%;
+    border: 1px solid beige;
+    background-color: #eee;
+  }
+  .breadcrumb {
+    /* width: 300px */
+    width: 768px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    /* text-decoration: underline; */
+    padding-right: 0%;
+
+    background-color: #eee;
+    /* cursor: pointer; */
+  }
+
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    /* align-items: center; */
+    font-size: 24px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    /* margin-left: 12px; */
+    color: black;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0px;
+    /* padding-left: 0%; */
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .inactiveLink {
+    width: 15%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 2%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 15%;
+    border: 1px solid violet;
+    margin-right: 2%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 /*Mobile */
 @media only screen and (max-width: 415px) {
-    .Nav {
-        min-width: 376px;
-        max-width: 415px;
-        width: 100%;
-        
-        background-color: #eee;
-        border: 1px solid beige;
+  .Nav {
+    min-width: 376px;
+    max-width: 415px;
+    width: 100%;
 
-    }
-    .breadcrumb {
-        /* width: 415px; */
-        /* width: 100%; */
-        /* border: 2px solid rebeccapurple; */
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        /* padding: 10px 16px; */
-        list-style: none;
-        padding-left: 0%;
-        padding-right: 0%;
-         /* border: 1px solid rebeccapurple; */
-        /* background-color: #eee; */
-    }
-    
-    /* Display list items side by side */
-    ul.breadcrumb {
-        display: flex;
-        font-size: 16px;
-    }
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        /* margin-left: 6px; */
+    background-color: #eee;
+    border: 1px solid beige;
+  }
+  .breadcrumb {
+    /* width: 415px; */
+    /* width: 100%; */
+    /* border: 2px solid rebeccapurple; */
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    /* padding: 10px 16px; */
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 0%;
+    /* border: 1px solid rebeccapurple; */
+    /* background-color: #eee; */
+  }
 
-        color: black;
-        
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0px;
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }
-    .inactiveLink {
-        width: 20%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        margin-right: 0%;
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 2.5%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 20%;
-        border: 1px solid violet;
-        margin-right: 2.5%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }    
+  /* Display list items side by side */
+  ul.breadcrumb {
+    display: flex;
+    font-size: 16px;
+  }
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    /* margin-left: 6px; */
+
+    color: black;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0px;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .inactiveLink {
+    width: 20%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 2.5%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 20%;
+    border: 1px solid violet;
+    margin-right: 2.5%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
 }
 /* Mobile */
 @media only screen and (max-width: 375px) {
-    .Nav {
-        /* height: 2%; */
-        min-width: 360px;
-        max-width: 375px;
-        width: 100%;
-        background-color: #eee;
-        /* border: 1px solid beige; */
-    }
-    .breadcrumb {
-        min-width: 360px;
-        max-width: 375px;
-        width: 100%;
-    }
-    /* Style the list */
-    ul.breadcrumb {
-        list-style: none;
-        padding-left: 0%;
-        padding-right: 0%;
-        background-color: #eee;
-        display: flex;
-        font-size: 14px;
-    }
-    
-    /* Display list items side by side */
- 
-    
-    /* Add a slash symbol (/) before/behind each list item */
-    ul.breadcrumb div, li+div, li::before {
-        content: "/\00a0";
-        /* margin-left: 6px; */
-        color: black;
-        
-    }
-    ul.breadcrum div .activeLink, li+div .activeLink, .activeLink li::before  {
-        margin-left: 0%;
-        padding-left: 0%;
-        margin-right: 0%;
-        padding-right: 0%;
-        content: "\003e\003e\003e";
-        color: red;
-    }
-    /* Add a color to all links inside the list */
-    ul.breadcrumb div li a {
-        color: #0275d8;
-        text-decoration: none;
-        margin-right: 0px;
-    }
-    
-    /* Add a color on mouse-over */
-    ul.breadcrumb li a:hover {
-        color: #01447e;
-        text-decoration: underline;
-    }
-    .inactiveLink {
-        width: 18%;
-        /* background:rgb(0, 24, 125); */
-        text-align: center;
-        margin-right: 0%;
-        border: 1px solid violet;
-        background: beige;
-        margin-right: 3%;
-        padding-right: 0%;
-    }
-    .activeLink {
-        /* background: rebeccapurple; */
-        color: red;
-        background:rgb(0, 24, 125);
-        text-align: center;
-        width: 20%;
-        border: 1px solid violet;
-        margin-right: 3%;
-        padding-right: 0%;
-        /* padding-left: 42px; */
-        
-    }
-    .activeLinkInner {
-        border: 1px solid burlywood;
-    }   
-}
+  .Nav {
+    /* height: 2%; */
+    min-width: 360px;
+    max-width: 375px;
+    width: 100%;
+    background-color: #eee;
+    /* border: 1px solid beige; */
+  }
+  .breadcrumb {
+    min-width: 360px;
+    max-width: 375px;
+    width: 100%;
+  }
+  /* Style the list */
+  ul.breadcrumb {
+    list-style: none;
+    padding-left: 0%;
+    padding-right: 0%;
+    background-color: #eee;
+    display: flex;
+    font-size: 14px;
+  }
 
+  /* Display list items side by side */
+
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb div,
+  li + div,
+  li::before {
+    content: "/\00a0";
+    /* margin-left: 6px; */
+    color: black;
+  }
+  ul.breadcrum div .activeLink,
+  li + div .activeLink,
+  .activeLink li::before {
+    margin-left: 0%;
+    padding-left: 0%;
+    margin-right: 0%;
+    padding-right: 0%;
+    content: "\003e\003e\003e";
+    color: red;
+  }
+  /* Add a color to all links inside the list */
+  ul.breadcrumb div li a {
+    color: #0275d8;
+    text-decoration: none;
+    margin-right: 0px;
+  }
+
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+  .inactiveLink {
+    width: 18%;
+    /* background:rgb(0, 24, 125); */
+    text-align: center;
+    margin-right: 0%;
+    border: 1px solid violet;
+    background: beige;
+    margin-right: 3%;
+    padding-right: 0%;
+  }
+  .activeLink {
+    /* background: rebeccapurple; */
+    color: red;
+    background: rgb(0, 24, 125);
+    text-align: center;
+    width: 20%;
+    border: 1px solid violet;
+    margin-right: 3%;
+    padding-right: 0%;
+    /* padding-left: 42px; */
+  }
+  .activeLinkInner {
+    border: 1px solid burlywood;
+  }
+}
