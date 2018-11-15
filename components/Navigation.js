@@ -11,6 +11,9 @@ class Navigation extends Component {
     this.state = {
       index: null,
       current: '',
+      isMobile: false,
+      size: 'large',
+      margin: 10,
     };
   }
 
@@ -42,10 +45,24 @@ class Navigation extends Component {
         current: 'Home',
       });
     }
+
+    const isMobile = window.innerWidth < 768;
+
+    if (this.state.isMobile !== isMobile) {
+      this.setState({ isMobile }); // eslint-disable-line
+    }
+  };
+
+  componentDidUpdate = (prevProps, prevState) => {
+    if (prevState.isMobile !== this.state.isMobile && this.state.isMobile === true) {
+      this.setState({ size: 'small', margin: 0 });
+      console.log('dimensions');
+    }
   };
 
   render() {
     const { classes } = this.props;
+    console.log('props', this.props, this.state.isMobile);
     return (
       <div className="Nav">
         <ul className="breadcrumb">
@@ -55,10 +72,10 @@ class Navigation extends Component {
                 <Link href="/">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="primary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Home
                     </Button>
@@ -72,10 +89,10 @@ class Navigation extends Component {
                 <Link href="/">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="secondary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Home
                     </Button>
@@ -91,10 +108,10 @@ class Navigation extends Component {
                 <Link href="/projects">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="primary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Projects
                     </Button>
@@ -108,10 +125,10 @@ class Navigation extends Component {
                 <Link href="/projects">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="secondary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Projects
                     </Button>
@@ -127,10 +144,10 @@ class Navigation extends Component {
                 <Link href="/about">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="primary"
-                      size="small"
+                      size={this.state.size}
                     >
                       About
                     </Button>
@@ -144,10 +161,10 @@ class Navigation extends Component {
                 <Link href="/about">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="secondary"
-                      size="small"
+                      size={this.state.size}
                     >
                       About
                     </Button>
@@ -163,10 +180,10 @@ class Navigation extends Component {
                 <Link href="/blog">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="primary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Blog
                     </Button>
@@ -180,10 +197,10 @@ class Navigation extends Component {
                 <Link href="/blog">
                   <a>
                     <Button
-                      style={{ marginRight: 10, marginLeft: 10 }}
+                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
                       color="secondary"
-                      size="small"
+                      size={this.state.size}
                     >
                       Blog
                     </Button>
@@ -198,7 +215,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/contact">
                   <a>
-                    <Button variant="contained" color="primary" size="small">
+                    <Button variant="contained" color="primary" size={this.state.size}>
                       Contact
                     </Button>
                   </a>
@@ -210,7 +227,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/contact">
                   <a>
-                    <Button variant="contained" color="secondary" size="small">
+                    <Button variant="contained" color="secondary" size={this.state.size}>
                       Contact
                     </Button>
                   </a>
@@ -234,4 +251,4 @@ class Navigation extends Component {
   }
 }
 
-export default Navigation;
+export default withLayout(Navigation);

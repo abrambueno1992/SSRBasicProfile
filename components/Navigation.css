@@ -642,7 +642,7 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
+    content: "";
     /* margin-left: 6px; */
     color: black;
   }
