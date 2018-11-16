@@ -91,7 +91,7 @@ class Navigation extends Component {
                     <Button
                       style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
-                      color="secondary"
+                      color="primary #f44336"
                       size={this.state.size}
                     >
                       Home
@@ -251,4 +251,4 @@ class Navigation extends Component {
   }
 }
 
-export default withLayout(Navigation);
+export default Navigation;
