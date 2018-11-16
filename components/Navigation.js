@@ -18,39 +18,39 @@ class Navigation extends Component {
   }
 
   componentDidMount = () => {
-    let temp = this.props.current.split('/');
-    temp = temp[1].split('');
-    if (temp[0]) {
-      temp[0] = temp[0].toUpperCase();
-      let newtemp = '';
-      temp.forEach((element) => {
-        newtemp += element;
-      });
-      if (newtemp === 'Home') {
-        // this.setState({current: newtemp, index: 0})
-      } else if (newtemp === 'Projects') {
-        this.setState({ current: newtemp, index: 1 });
-      } else if (newtemp === 'About') {
-        this.setState({ current: newtemp, index: 2 });
-      } else if (newtemp === 'Blog') {
-        this.setState({ current: newtemp, index: 3 });
-      } else if (newtemp === 'Contact') {
-        this.setState({ current: newtemp, index: 4 });
-      } else {
-        this.setState({ current: newtemp, index: 0 });
-      }
-    } else {
-      this.setState({
-        index: 0,
-        current: 'Home',
-      });
-    }
+    // let temp = this.props.current.split('/');
+    // temp = temp[1].split('');
+    // if (temp[0]) {
+    //   temp[0] = temp[0].toUpperCase();
+    //   let newtemp = '';
+    //   temp.forEach((element) => {
+    //     newtemp += element;
+    //   });
+    //   if (newtemp === 'Home') {
+    //     // this.setState({current: newtemp, index: 0})
+    //   } else if (newtemp === 'Projects') {
+    //     this.setState({ current: newtemp, index: 1 });
+    //   } else if (newtemp === 'About') {
+    //     this.setState({ current: newtemp, index: 2 });
+    //   } else if (newtemp === 'Blog') {
+    //     this.setState({ current: newtemp, index: 3 });
+    //   } else if (newtemp === 'Contact') {
+    //     this.setState({ current: newtemp, index: 4 });
+    //   } else {
+    //     this.setState({ current: newtemp, index: 0 });
+    //   }
+    // } else {
+    //   this.setState({
+    //     index: 0,
+    //     current: 'Home',
+    //   });
+    // }
 
-    const isMobile = window.innerWidth < 768;
+    // const isMobile = window.innerWidth < 768;
 
-    if (this.state.isMobile !== isMobile) {
-      this.setState({ isMobile }); // eslint-disable-line
-    }
+    // if (this.state.isMobile !== isMobile) {
+    //   this.setState({ isMobile }); // eslint-disable-line
+    // }
   };
 
   componentDidUpdate = (prevProps, prevState) => {
