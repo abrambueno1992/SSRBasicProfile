@@ -54,32 +54,14 @@ class App extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
         </Head>
-        {/* <div className="BreadCrumbIndex">
+        <div className="BreadCrumbIndex">
           <Navigation current={this.props.url.pathname} />
-        </div> */}
+        </div>
         <div className="Intro">
-          {/* <div className="Text">
+          <div className="Text">
             Hello, my name is Abraham Bueno, and I'm a Full Stack Web Developer
           </div>
-          <div className="Text">The Stack I use is Mongo DB, Express, React, Redux, and Node.</div> */}
-
-          <AppBar position="fixed" className={classes.appBar}>
-            <Toolbar>
-              <Typography variant="h6" color="inherit" noWrap>
-                {/* Permanent drawer */}
-                <Navigation current={this.props.url.pathname} />
-              </Typography>
-            </Toolbar>
-          </AppBar>
-          <main className={classes.content}>
-            <div className={classes.toolbar} />
-            <Typography variant="h3" color="primary" className="Text" paragraph>
-              Hello, my name is Abraham Bueno, and I'm a Full Stack Web Developer
-            </Typography>
-            <Typography variant="h3" color="primary" className="Text" paragraph>
-              The Stack I use is Mongo DB, Express, React, Redux, and Node.
-            </Typography>
-          </main>
+          <div className="Text">The Stack I use is Mongo DB, Express, React, Redux, and Node.</div>
         </div>
         <div className="ParticlesStyleIndex">
           <Particles
