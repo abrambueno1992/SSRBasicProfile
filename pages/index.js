@@ -54,9 +54,7 @@ class App extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
         </Head>
-        <div className="BreadCrumbIndex">
-          {/* <Navigation current={this.props.url.pathname} /> */}
-        </div>
+
         <div className="Intro">
           <div className="Text">
             Hello, my name is Abraham Bueno, and I'm a Full Stack Web Developer

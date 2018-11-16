@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import Navigation from '../components/Navigation';
 import './About.css';
 import Particles from 'react-particles-js';
 import Head from 'next/head'
+import withLayout from '../lib/withLayout';
 
 class About extends Component {
   constructor(props) {
@@ -18,7 +18,6 @@ class About extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
           {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
         </Head>
-        <Navigation current={this.props.url.pathname} />
         <div className="AboutIntro">
           <div className="IntroText">I'm a lifelong learner, currently improving my web development skills.</div>
           <div className="IntroText">As a full stack web developer I use the MERN stack: Mongo DB, Express, React, and Node.</div>
@@ -77,4 +76,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default withLayout(About);

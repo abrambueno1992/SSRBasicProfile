@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
-import Navigation from '../components/Navigation'
 import './Blog.css';
-import Head from 'next/head'
+import Head from 'next/head';
 import Particles from 'react-particles-js';
+import withLayout from '../lib/withLayout';
 
 class Blog extends Component {
   constructor(props) {
-    super(props)
+    super(props);
   }
+
   render() {
     return (
       <div className="MainBlog">
         <Head>
           <title>Portfolio Project</title>
-          <meta charSet='utf-8' />
+          <meta charSet="utf-8" />
           <meta name="description" content="Portfolio " />
-          <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
         </Head>
-        <Navigation current={this.props.url.pathname} />
         <div className="BlogIntro">
           <h1>Coming SOON</h1>
         </div>
@@ -29,8 +29,8 @@ class Blog extends Component {
                 number: {
                   value: 120,
                   density: {
-                    enable: false
-                  }
+                    enable: false,
+                  },
                 },
                 size: {
                   value: 10,
@@ -38,8 +38,8 @@ class Blog extends Component {
                   anim: {
                     speed: 10,
                     size_min: 0.3,
-                    size: 0.3
-                  }
+                    size: 0.3,
+                  },
                 },
                 line_linked: {
                   enable: false,
@@ -53,43 +53,39 @@ class Blog extends Component {
                   random: true,
                   speed: 3,
                   direction: 'bottom-left',
-                  out_mode: 'out'
-                }
+                  out_mode: 'out',
+                },
               },
               interactivity: {
                 events: {
                   onhover: {
                     enable: true,
-                    mode: 'grab'
+                    mode: 'grab',
                   },
                   onclick: {
                     enable: true,
-                    mode: 'bubble'
-                  }
-                }
-
+                    mode: 'bubble',
+                  },
+                },
               },
               modes: {
                 bubble: {
                   distance: 100,
                   duration: 2,
                   size: 0,
-                  opacity: 0
+                  opacity: 0,
                 },
                 repulse: {
                   distance: 400,
-                  duration: 4
-                }
+                  duration: 4,
+                },
               },
-              
-
             }}
             className="ParticlesSblog"
           />
         </div>
-
       </div>
-    )
+    );
   }
 }
-export default Blog;
+export default withLayout(Blog);
