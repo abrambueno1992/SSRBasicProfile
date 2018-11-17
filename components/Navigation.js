@@ -13,9 +13,9 @@ import withLayout from '../lib/withLayout';
 
 const styles = {
   root: {
-    // flexGrow: 1,
-    width: '100%',
-    justifyContent: 'space-evenly',
+    flexGrow: 1,
+    // width: '100%',
+    // justifyContent: 'space-evenly',
   },
   space: {
     justifyContent: 'center',
@@ -87,7 +87,7 @@ class Navigation extends Component {
     const { classes } = this.props;
     console.log('props', this.props, this.state.isMobile);
     return (
-      <div className={classes.root}>
+      <div className="Nav">
         <AppBar position="static">
           <Toolbar>
             {/* <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
