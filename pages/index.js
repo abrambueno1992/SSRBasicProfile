@@ -57,6 +57,7 @@ class App extends Component {
 
         <div className="Intro">
           <div className="Text">
+          
             Hello, my name is Abraham Bueno, and I'm a Full Stack Web Developer
           </div>
           <div className="Text">The Stack I use is Mongo DB, Express, React, Redux, and Node.</div>

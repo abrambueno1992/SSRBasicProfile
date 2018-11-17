@@ -3,8 +3,31 @@ import Link from 'next/link';
 import './Navigation.css';
 import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
+import PropTypes from 'prop-types';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
 import withLayout from '../lib/withLayout';
 
+const styles = {
+  root: {
+    // flexGrow: 1,
+    width: '100%',
+    justifyContent: 'space-evenly',
+  },
+  space: {
+    justifyContent: 'center',
+  },
+  grow: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20,
+  },
+};
 class Navigation extends Component {
   constructor(props) {
     super(props);
@@ -64,11 +87,18 @@ class Navigation extends Component {
     const { classes } = this.props;
     console.log('props', this.props, this.state.isMobile);
     return (
-      <div className="Nav">
-        <ul className="breadcrumb">
-          {this.state.index !== 0 ? (
-            <div>
-              <li>
+      <div className={classes.root}>
+        <AppBar position="static">
+          <Toolbar>
+            {/* <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+            <MenuIcon />
+          </IconButton> */}
+            {/* <Typography variant="h6" color="inherit" className={classes.grow}>
+              News
+            </Typography>
+            <Button color="inherit">Login</Button> */}
+            {this.state.index !== 0 ? (
+              <Typography variant="h6" color="inherit" className={classes.grow}>
                 <Link href="/">
                   <a>
                     <Button
@@ -81,30 +111,24 @@ class Navigation extends Component {
                     </Button>
                   </a>
                 </Link>
-              </li>
-            </div>
-          ) : (
-            <div>
-              <li>
-                <Link href="/">
-                  <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary #f44336"
-                      size={this.state.size}
-                    >
-                      Home
-                    </Button>
-                  </a>
-                </Link>
-              </li>
-            </div>
-          )}
+              </Typography>
+            ) : (
+              <Link href="/">
+                <a>
+                  <Button
+                    style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
+                    variant="contained"
+                    color="inherit"
+                    size={this.state.size}
+                  >
+                    Home
+                  </Button>
+                </a>
+              </Link>
+            )}
 
-          {this.state.index !== 1 ? (
-            <div>
-              <li>
+            {this.state.index !== 1 ? (
+              <Typography variant="h6" color="inherit" className={classes.grow}>
                 <Link href="/projects">
                   <a>
                     <Button
@@ -117,30 +141,24 @@ class Navigation extends Component {
                     </Button>
                   </a>
                 </Link>
-              </li>
-            </div>
-          ) : (
-            <div>
-              <li>
-                <Link href="/projects">
-                  <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="secondary"
-                      size={this.state.size}
-                    >
-                      Projects
-                    </Button>
-                  </a>
-                </Link>
-              </li>
-            </div>
-          )}
+              </Typography>
+            ) : (
+              <Link href="/projects">
+                <a>
+                  <Button
+                    style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
+                    variant="contained"
+                    color="inherit"
+                    size={this.state.size}
+                  >
+                    Projects
+                  </Button>
+                </a>
+              </Link>
+            )}
 
-          {this.state.index !== 2 ? (
-            <div>
-              <li>
+            {this.state.index !== 2 ? (
+              <Typography variant="h6" color="inherit" className={classes.grow}>
                 <Link href="/about">
                   <a>
                     <Button
@@ -153,30 +171,24 @@ class Navigation extends Component {
                     </Button>
                   </a>
                 </Link>
-              </li>
-            </div>
-          ) : (
-            <div>
-              <li>
-                <Link href="/about">
-                  <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="secondary"
-                      size={this.state.size}
-                    >
-                      About
-                    </Button>
-                  </a>
-                </Link>
-              </li>
-            </div>
-          )}
+              </Typography>
+            ) : (
+              <Link href="/about">
+                <a>
+                  <Button
+                    style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
+                    variant="contained"
+                    color="inherit"
+                    size={this.state.size}
+                  >
+                    About
+                  </Button>
+                </a>
+              </Link>
+            )}
 
-          {this.state.index !== 3 ? (
-            <div>
-              <li>
+            {this.state.index !== 3 ? (
+              <Typography variant="h6" color="inherit" className={classes.grow}>
                 <Link href="/blog">
                   <a>
                     <Button
@@ -189,66 +201,103 @@ class Navigation extends Component {
                     </Button>
                   </a>
                 </Link>
-              </li>
-            </div>
-          ) : (
-            <div>
-              <li>
-                <Link href="/blog">
+              </Typography>
+            ) : (
+              <Link href="/blog">
+                <a>
+                  <Button
+                    style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
+                    variant="contained"
+                    color="inherit"
+                    size={this.state.size}
+                  >
+                    Blog
+                  </Button>
+                </a>
+              </Link>
+            )}
+
+            {this.state.index !== 4 ? (
+              <Typography variant="h6" color="inherit" className={classes.grow}>
+                <Link href="/contact">
                   <a>
                     <Button
                       style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
                       variant="contained"
-                      color="secondary"
+                      color="primary"
                       size={this.state.size}
                     >
-                      Blog
-                    </Button>
-                  </a>
-                </Link>
-              </li>
-            </div>
-          )}
-
-          {this.state.index !== 4 ? (
-            <div>
-              <li>
-                <Link href="/contact">
-                  <a>
-                    <Button variant="contained" color="primary" size={this.state.size}>
                       Contact
                     </Button>
                   </a>
                 </Link>
-              </li>
-            </div>
-          ) : (
-            <div>
-              <li>
-                <Link href="/contact">
-                  <a>
-                    <Button variant="contained" color="secondary" size={this.state.size}>
-                      Contact
-                    </Button>
-                  </a>
-                </Link>
-              </li>
-            </div>
-          )}
-
-          {/* <div className="activeLink">
-                        <li >
-                            <a className="activeLinkInner" >
-                                {this.state.current}
-                            </a>
-                        </li>
-
-                    </div> */}
-        </ul>
-        {/* </Breadcrumb> */}
+              </Typography>
+            ) : (
+              <Link href="/contact">
+                <a>
+                  <Button
+                    style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
+                    variant="contained"
+                    color="inherit"
+                    size={this.state.size}
+                  >
+                    Contact
+                  </Button>
+                </a>
+              </Link>
+            )}
+          </Toolbar>
+        </AppBar>
       </div>
     );
   }
 }
 
-export default Navigation;
+export default withStyles(styles)(Navigation);
+// import React from 'react';
+// import PropTypes from 'prop-types';
+// import { withStyles } from '@material-ui/core/styles';
+// import AppBar from '@material-ui/core/AppBar';
+// import Toolbar from '@material-ui/core/Toolbar';
+// import Typography from '@material-ui/core/Typography';
+// import Button from '@material-ui/core/Button';
+// import IconButton from '@material-ui/core/IconButton';
+// import MenuIcon from '@material-ui/icons/Menu';
+
+// const styles = {
+//   root: {
+//     flexGrow: 1,
+//   },
+//   grow: {
+//     flexGrow: 1,
+//   },
+//   menuButton: {
+//     marginLeft: -12,
+//     marginRight: 20,
+//   },
+// };
+
+// function ButtonAppBar(props) {
+// const { classes } = props;
+// return (
+//   <div className={classes.root}>
+// <AppBar position="static">
+//   <Toolbar>
+//     {/* <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
+//       <MenuIcon />
+//     </IconButton> */}
+//     <Typography variant="h6" color="inherit" className={classes.grow}>
+//       News
+//     </Typography>
+//     <Button color="inherit">Login</Button>
+//   </Toolbar>
+// </AppBar>
+//     </div>
+//   );
+// }
+
+// ButtonAppBar.propTypes = {
+//   classes: PropTypes.object.isRequired,
+// };
+
+// export default withStyles(styles)(ButtonAppBar);
