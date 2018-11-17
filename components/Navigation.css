@@ -9,6 +9,7 @@
   .breadcrumb {
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
@@ -99,6 +100,7 @@
   .breadcrumb {
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
@@ -183,6 +185,7 @@
   .breadcrumb {
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
@@ -271,6 +274,7 @@
   .breadcrumb {
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
@@ -359,6 +363,7 @@
     /* width: 300px */
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
@@ -449,6 +454,7 @@
     /* width: 300px */
     width: 768px;
     width: 100%;
+    justify-content: space-around;
   }
   /* Style the list */
   ul.breadcrumb {
