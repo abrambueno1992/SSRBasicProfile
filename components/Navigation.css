@@ -27,8 +27,6 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
 
   /* Add a color to all links inside the list */
@@ -39,27 +37,6 @@
   ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
-  }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-  }
-  .inactiveLink {
-    width: 16%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    margin-right: 1%;
-  }
-  .activeLink {
-    margin-right: 1%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
   }
 }
 
@@ -91,8 +68,6 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
 
   /* Add a color to all links inside the list */
@@ -103,35 +78,6 @@
   ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
-  }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
-  .inactiveLink {
-    width: 8%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    background: beige;
-    margin-right: 1%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 8%;
-    border: 1px solid violet;
-    margin-right: 1%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
   }
 }
 /* Desktop */
@@ -164,8 +110,6 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
 
   /* Add a color to all links inside the list */
@@ -176,35 +120,6 @@
   ul.breadcrumb li a:hover {
     color: #01447e;
     text-decoration: underline;
-  }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
-  .inactiveLink {
-    width: 8%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    background: beige;
-    margin-right: 1%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 8%;
-    border: 1px solid violet;
-    margin-right: 1%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
   }
 }
 
@@ -238,19 +153,8 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
+  
 
   /* Add a color to all links inside the list */
   ul.breadcrumb div li a {
@@ -261,23 +165,7 @@
     color: #01447e;
     text-decoration: underline;
   }
-  .inactiveLink {
-    width: 8%;
-    text-align: center;
-    border: 1px solid violet;
-    margin-right: 1%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 8%;
-    border: 1px solid violet;
-    margin-right: 1%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
-  }
+  
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
@@ -309,19 +197,8 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
+  
   /* Add a color to all links inside the list */
   ul.breadcrumb div li a {
   }
@@ -331,25 +208,7 @@
     color: #01447e;
     text-decoration: underline;
   }
-  .inactiveLink {
-    width: 12%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    background: beige;
-    margin-right: 1%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 12%;
-    border: 1px solid violet;
-    margin-right: 0.5%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
-  }
+  
 }
 /* Ipad */
 @media only screen and (max-width: 768px) {
@@ -381,19 +240,8 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-    color: black;
   }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
+  
 
   /* Add a color to all links inside the list */
   ul.breadcrumb div li a {
@@ -404,24 +252,7 @@
     color: #01447e;
     text-decoration: underline;
   }
-  .inactiveLink {
-    width: 15%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    margin-right: 2%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 15%;
-    border: 1px solid violet;
-    margin-right: 2%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
-  }
+  
 }
 /*Mobile */
 @media only screen and (max-width: 415px) {
@@ -450,20 +281,8 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "/\00a0";
-
-    color: black;
   }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
+  
   /* Add a color to all links inside the list */
   ul.breadcrumb div li a {
   }
@@ -473,24 +292,7 @@
     color: #01447e;
     text-decoration: underline;
   }
-  .inactiveLink {
-    width: 20%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    margin-right: 2.5%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 20%;
-    border: 1px solid violet;
-    margin-right: 2.5%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
-  }
+  
 }
 /* Mobile */
 @media only screen and (max-width: 375px) {
@@ -519,19 +321,8 @@
   ul.breadcrumb div,
   li + div,
   li::before {
-    content: "";
-    color: black;
   }
-  ul.breadcrum div .activeLink,
-  li + div .activeLink,
-  .activeLink li::before {
-    margin-left: 0%;
-    padding-left: 0%;
-    margin-right: 0%;
-    padding-right: 0%;
-    content: "\003e\003e\003e";
-    color: red;
-  }
+  
   /* Add a color to all links inside the list */
   ul.breadcrumb div li a {
   }
@@ -541,23 +332,5 @@
     color: #01447e;
     text-decoration: underline;
   }
-  .inactiveLink {
-    width: 18%;
-    text-align: center;
-    margin-right: 0%;
-    border: 1px solid violet;
-    margin-right: 3%;
-    padding-right: 0%;
-  }
-  .activeLink {
-    color: red;
-    text-align: center;
-    width: 20%;
-    border: 1px solid violet;
-    margin-right: 3%;
-    padding-right: 0%;
-  }
-  .activeLinkInner {
-    border: 1px solid burlywood;
-  }
+  
 }
