@@ -113,28 +113,34 @@ class About extends Component {
             <div className="AboutTopic">Linkedin</div>
           </a> */}
           <Paper className={classes.icons}>
-            <Typography variant="h5" component="h3">
-              <FontAwesomeIcon icon={['fab', 'github']} />
-            </Typography>
-            <Typography component="p">GitHub</Typography>
-          </Paper>
-
-          <Paper className={classes.icons}>
-            <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
-              {/* <div >Linkedin</div> */}
+            <a target="_blank" href="https://github.com/abrambueno1992">
               <Typography variant="h5" component="h3">
-                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+                <FontAwesomeIcon icon={['fab', 'github']} />
               </Typography>
-
-              <Typography className="AboutTopic" component="p">LinkedIn</Typography>
+              <Typography className="AboutTopic" component="p">
+                GitHub
+              </Typography>
             </a>
           </Paper>
 
           <Paper className={classes.icons}>
-            <Typography variant="h5" component="h3">
-              <FontAwesomeIcon icon="check-square" />
-            </Typography>
-            <Typography component="p">The Hack Hive</Typography>
+            <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
+              <Typography variant="h5" component="h3">
+                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              </Typography>
+              <Typography className="AboutTopic" component="p">
+                LinkedIn
+              </Typography>
+            </a>
+          </Paper>
+
+          <Paper className={classes.icons}>
+            <a target="_blank" href="https://www.thehackhive.com/portfolio/abrambueno1992">
+              <Typography variant="h5" component="h3">
+                <FontAwesomeIcon icon="check-square" />
+              </Typography>
+              <Typography className="AboutTopic" component="p">The Hack Hive</Typography>
+            </a>
           </Paper>
         </div>
 
