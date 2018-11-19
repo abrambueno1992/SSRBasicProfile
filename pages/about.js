@@ -8,10 +8,15 @@ import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
 import { withStyles } from '@material-ui/core/styles';
+import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faStroopwafel } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
+
+import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 import withLayout from '../lib/withLayout';
+
+library.add(fab, faCheckSquare, faCoffee);
 
 const styles = theme => ({
   root: {
@@ -21,6 +26,15 @@ const styles = theme => ({
     marginBottom: 5,
     marginTop: 5,
     textAlign: 'center',
+  },
+  icons: {
+    ...theme.mixins.gutters(),
+    paddingTop: theme.spacing.unit * 2,
+    paddingBottom: theme.spacing.unit * 2,
+    marginBottom: 5,
+    marginTop: 5,
+    textAlign: 'center',
+    height: '50%',
   },
 });
 
@@ -98,8 +112,29 @@ class About extends Component {
           <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
             <div className="AboutTopic">Linkedin</div>
           </a> */}
-          <Paper className={classes.root} elevation={1}>
-            <FontAwesomeIcon icon={faStroopwafel} />
+          <Paper className={classes.icons}>
+            <Typography variant="h5" component="h3">
+              <FontAwesomeIcon icon={['fab', 'github']} />
+            </Typography>
+            <Typography component="p">GitHub</Typography>
+          </Paper>
+
+          <Paper className={classes.icons}>
+            <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
+              {/* <div >Linkedin</div> */}
+              <Typography variant="h5" component="h3">
+                <FontAwesomeIcon icon={['fab', 'linkedin']} />
+              </Typography>
+
+              <Typography className="AboutTopic" component="p">LinkedIn</Typography>
+            </a>
+          </Paper>
+
+          <Paper className={classes.icons}>
+            <Typography variant="h5" component="h3">
+              <FontAwesomeIcon icon="check-square" />
+            </Typography>
+            <Typography component="p">The Hack Hive</Typography>
           </Paper>
         </div>
 

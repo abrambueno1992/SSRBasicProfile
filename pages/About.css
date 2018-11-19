@@ -1,529 +1,519 @@
 @media only screen and (min-width: 1921px) {
-    .MainAbout {
-        min-width: 1921px;
-        max-width: 2560px;
-        width: 100%;
-        height: 1440px;
-        box-sizing: content-box;
-        text-align: center;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        padding: 2%;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        font-weight: bold;
-        color: red;
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 30%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        font-size: 2em;
-        text-decoration: underline;
+  .MainAbout {
+    min-width: 1921px;
+    max-width: 2560px;
+    width: 100%;
+    height: 1440px;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    padding: 2%;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
 /* Desktop */
 @media only screen and (max-width: 1920px) {
-    .MainAbout {
-        /* background: #eee; */
-        min-width: 1681px;
-        max-width: 1920px;
-        width: 100%;
-        height: 1080px;
-        box-sizing: content-box;
-        text-align: center;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        padding: 2%;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        font-weight: bold;
-        color: red;
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 30%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        font-size: 2em;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    min-width: 1681px;
+    max-width: 1920px;
+    width: 100%;
+    height: 1080px;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    padding: 2%;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
-
 
 /* Desktop */
 @media only screen and (max-width: 1680px) {
-    .MainAbout {
-        /* background: #eee; */
-        min-width: 1441px;
-        max-width: 1680px;
-        width: 100%;
-        height: 1050px;
-        box-sizing: content-box;
-        text-align: center;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        padding: 2%;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 0%;
-        margin-right: 0%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        font-weight: bold;
-        color: red;
-        
-        /* border: 1px solid red; */
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 30%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        font-size:  1.1em;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    min-width: 1441px;
+    max-width: 1680px;
+    width: 100%;
+    height: 1050px;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    padding: 2%;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+    /* border: 1px solid red; */
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
+
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
 
 /* Laptop */
 @media only screen and (max-width: 1440px) {
-    .MainAbout {
-        /* background: #eee; */
-        height: 768px;
-        min-width: 1025px;
-        max-width: 1440px;
-        width: 100%;
-        box-sizing: content-box;
-        text-align: center;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
-        font-weight: bold;
-        color: red;
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 30%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    height: 768px;
+    min-width: 1025px;
+    max-width: 1440px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
 /* Ipad Pro */
 @media only screen and (max-width: 1024px) {
-    .MainAbout {
-        /* background: #eee; */
-        height: 768px;
-        min-width: 769px;
-        max-width: 1024px;
-        width: 100%;
-        box-sizing: content-box;
-        text-align: center;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: blue;
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 50%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    height: 768px;
+    min-width: 769px;
+    max-width: 1024px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
 /* Ipad */
 
 @media only screen and (max-width: 768px) {
-    .MainAbout {
-        /* background: #eee; */
-        height: 1024px;
-        min-width: 416px;
-        max-width: 768px;
-        width: 100%;
-        box-sizing: content-box;
-        text-align: center;
-        padding: 0%;
-        margin: 0%;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 100%;
-        margin-left: 2%;
-        margin-right: 2%;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: blue;
-        margin-top: 0.5%;
-        margin-bottom: 0%
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 60%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    height: 1024px;
+    min-width: 416px;
+    max-width: 768px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    border: 1px solid violet;
+  }
+  .IntroText {
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
-    .ParticlesSabout {
-        width: 100%
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 60%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: 1px solid violet;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
+  .ParticlesSabout {
+    width: 100%;
+  }
 }
 
 /*Mobile */
 @media only screen and (max-width: 415px) {
-    .MainAbout {
-        /* background: #eee; */
-        height: 736px;
-        min-width: 376px;
-        max-width: 415px;
-        width: 100%;
-        text-align: center;
-        box-sizing: content-box;
-        padding: 0%;
-        margin: 0%;
-    }
-    .AboutIntro {
-        /* box-sizing: border-box; */
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 0.5%;
-        margin-bottom: 0%;
-        padding: 0%;
-        /* padding-right: 0%; */
-        font-size: 1.2em;
-        text-emphasis: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: red;
-    
-        
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 80%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        text-decoration: underline;
+  .MainAbout {
+    /* background: #eee; */
+    height: 736px;
+    min-width: 376px;
+    max-width: 415px;
+    width: 100%;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 0%;
+    margin: 0%;
+  }
+  .AboutIntro {
+    /* box-sizing: border-box; */
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    border: none;
+  }
+  .IntroText {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    padding: 0%;
+    /* padding-right: 0%; */
+    font-size: 1.2em;
+    text-emphasis: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+  }
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 88%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: none;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
 }
 /* Mobile */
 @media only screen and (max-width: 375px) {
-    .MainAbout {
-        min-width: 360px;
-        max-width: 375px;
-        width: 100%;
-        height: 667px;
-        text-align: center;
-        box-sizing: content-box;
-        padding: 0%;
-        margin: 0%;
-        align-content: center;
-    }
-    .AboutIntro {
-        text-align: left;
-        width: 80%;
-        margin-top: 5%;
-        /* margin-left: 0%; */
-        margin-left: 10%;
-        margin-right: 10%;
-        padding: 0%;
-        position: absolute;
-        background: black;
-        opacity: 0.48;
-        border: 1px solid violet;
-    }
-    .IntroText {
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
-        margin-top: 0.5%;
-        margin-bottom: 0%;
-        padding: 0%;
-        /* padding: 1.5%; */
-        
-        font-size: 1em;
-        text-emphasis: bold;
-        font-weight: bold;
-        font-family: Arial, Helvetica, sans-serif;
-        color: red;
-        /* border: 1px solid red; */
-        
-    }
-    
-    .AboutResources {
-        width: 60%;
-        margin-left: 20%;
-        margin-top: 80%;
-        position: absolute;
-        background: black;
-        opacity: 0.35;
-        text-emphasis: bold;
-        border: 1px solid violet;
-    }
-    .AboutTopic {
-        color: orange;
-        font-weight: bold;
-        text-decoration: underline;
+  .MainAbout {
+    min-width: 360px;
+    max-width: 375px;
+    width: 100%;
+    height: 667px;
+    text-align: center;
+    box-sizing: content-box;
+    padding: 0%;
+    margin: 0%;
+    align-content: center;
+  }
+  .AboutIntro {
+    text-align: left;
+    width: 80%;
+    margin-top: 5%;
+    /* margin-left: 0%; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0%;
+    position: absolute;
+    background: black;
+    opacity: 0.48;
+    border: none;
+  }
+  .IntroText {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0.5%;
+    margin-bottom: 0%;
+    padding: 0%;
+    /* padding: 1.5%; */
 
-    }
-    .ParticlesStyleAbout {
-        display: flex;
-        /* position: absolute; */
-        margin-top: 0%;
-        /* opacity: 0.5; */
-        background:rgb(0, 24, 125);
-        width: 100%;
-        height: 100%;
-    }
+    font-size: 1em;
+    text-emphasis: bold;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    /* border: 1px solid red; */
+  }
+
+  .AboutResources {
+    width: 60%;
+    margin-left: 20%;
+    height: 10%;
+
+    margin-top: 110%;
+    position: absolute;
+    background: black;
+    opacity: 0.35;
+    text-emphasis: bold;
+    border: none;
+  }
+  .AboutTopic {
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .ParticlesStyleAbout {
+    display: flex;
+    /* position: absolute; */
+    margin-top: 0%;
+    /* opacity: 0.5; */
+    background: rgb(0, 24, 125);
+    width: 100%;
+    height: 100%;
+  }
 }
