@@ -7,10 +7,10 @@ import PropTypes from 'prop-types';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
 
-import classNames from 'classnames';
 import { withStyles } from '@material-ui/core/styles';
-import red from '@material-ui/core/colors/red';
-import Icon from '@material-ui/core/Icon';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee, faStroopwafel } from '@fortawesome/free-solid-svg-icons';
+
 import withLayout from '../lib/withLayout';
 
 const styles = theme => ({
@@ -21,36 +21,6 @@ const styles = theme => ({
     marginBottom: 5,
     marginTop: 5,
     textAlign: 'center',
-    root: {
-      display: 'flex',
-      justifyContent: 'center',
-      alignItems: 'flex-end',
-    },
-    icon: {
-      margin: theme.spacing.unit * 2,
-    },
-    iconHover: {
-      margin: theme.spacing.unit * 2,
-      '&:hover': {
-        color: red[800],
-      },
-    },
-  },
-});
-const styles2 = theme => ({
-  root: {
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'flex-end',
-  },
-  icon: {
-    margin: theme.spacing.unit * 2,
-  },
-  iconHover: {
-    margin: theme.spacing.unit * 2,
-    '&:hover': {
-      color: red[800],
-    },
   },
 });
 
@@ -58,6 +28,15 @@ class About extends Component {
   constructor(props) {
     super(props);
   }
+
+  componentDidMount() {
+    // loadCSS(
+    //   'https://use.fontawesome.com/releases/v5.1.0/css/all.css',
+    //   document.querySelector('#insertion-point-jss'),
+    // );
+  }
+
+  static getInitialProps({ query }) {}
 
   render() {
     const { classes } = this.props;
@@ -109,7 +88,7 @@ class About extends Component {
           </Paper>
         </div>
         <div className="AboutResources">
-          <div className="IntroText">Personal Profiles</div>
+          {/* <div className="IntroText">Personal Profiles</div>
           <a target="_blank" href="https://github.com/abrambueno1992">
             <div className="AboutTopic">Github</div>
           </a>
@@ -118,24 +97,12 @@ class About extends Component {
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/">
             <div className="AboutTopic">Linkedin</div>
-          </a>
+          </a> */}
+          <Paper className={classes.root} elevation={1}>
+            <FontAwesomeIcon icon={faStroopwafel} />
+          </Paper>
         </div>
-        <div className={classes.root}>
-          <Icon className={classNames(classes.icon, 'fa fa-plus-circle')} />
-          <Icon className={classNames(classes.icon, 'fa fa-plus-circle')} color="primary" />
-          <Icon className={classNames(classes.icon, 'fa fa-plus-circle')} color="secondary" />
-          <Icon className={classNames(classes.icon, 'fa fa-plus-circle')} color="action" />
-          <Icon
-            className={classNames(classes.iconHover, 'fa fa-plus-circle')}
-            color="error"
-            style={{ fontSize: 30 }}
-          />
-          <Icon
-            className={classNames(classes.icon, 'fa fa-plus-circle')}
-            color="disabled"
-            fontSize="large"
-          />
-        </div>
+
         <div className="ParticlesStyleAbout">
           <Particles
             params={{
