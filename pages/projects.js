@@ -40,7 +40,10 @@ class Project extends Component {
               Github Code
             </a>
           </h2>
-          <img className="Images" src="/static/FrontEnd.webp" />
+          <img
+            className="Images"
+            src="https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp"
+          />
           <h2>
             Back End Project:
             <a
@@ -58,7 +61,10 @@ class Project extends Component {
               Github Code
             </a>
           </h2>
-          <img className="Images" src="/static/FullStack.webp" />
+          <img
+            className="Images"
+            src="https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp"
+          />
           <h2>
             Capstone Project:
             <a
@@ -76,7 +82,10 @@ class Project extends Component {
               Github Code
             </a>
           </h2>
-          <img className="Images" src="/static/LeadboardExample.webp" />
+          <img
+            className="Images"
+            src="https://res.cloudinary.com/unemployed/image/upload/v1542650579/LeadboardExample.webp"
+          />
         </div>
         <div className="ParticlesStyleProjects">
           <Particles
@@ -144,5 +153,5 @@ class Project extends Component {
     );
   }
 }
-export default withLayout(Project)
+export default withLayout(Project);
 //  Project;
