@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 import './Navigation.css';
-import { withStyles } from '@material-ui/core/styles';
 import Button from '@material-ui/core/Button';
-import withLayout from '../lib/withLayout';
 
 class Navigation extends Component {
   constructor(props) {
@@ -71,12 +69,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="primary" size={this.state.size}>
                       Home
                     </Button>
                   </a>
@@ -88,12 +81,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary #f44336"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="secondary" size={this.state.size}>
                       Home
                     </Button>
                   </a>
@@ -107,12 +95,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/projects">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="primary" size={this.state.size}>
                       Projects
                     </Button>
                   </a>
@@ -124,12 +107,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/projects">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="secondary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="secondary" size={this.state.size}>
                       Projects
                     </Button>
                   </a>
@@ -143,12 +121,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/about">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="primary" size={this.state.size}>
                       About
                     </Button>
                   </a>
@@ -160,12 +133,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/about">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="secondary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="secondary" size={this.state.size}>
                       About
                     </Button>
                   </a>
@@ -179,12 +147,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/blog">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="primary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="primary" size={this.state.size}>
                       Blog
                     </Button>
                   </a>
@@ -196,12 +159,7 @@ class Navigation extends Component {
               <li>
                 <Link href="/blog">
                   <a>
-                    <Button
-                      style={{ marginRight: this.state.margin, marginLeft: this.state.margin }}
-                      variant="contained"
-                      color="secondary"
-                      size={this.state.size}
-                    >
+                    <Button variant="contained" color="secondary" size={this.state.size}>
                       Blog
                     </Button>
                   </a>
@@ -235,17 +193,7 @@ class Navigation extends Component {
               </li>
             </div>
           )}
-
-          {/* <div className="activeLink">
-                        <li >
-                            <a className="activeLinkInner" >
-                                {this.state.current}
-                            </a>
-                        </li>
-
-                    </div> */}
         </ul>
-        {/* </Breadcrumb> */}
       </div>
     );
   }
