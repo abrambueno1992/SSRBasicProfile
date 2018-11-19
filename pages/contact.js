@@ -30,7 +30,7 @@ class Contact extends Component {
             {' '}
             <span className="ContactDetails">773-240-4646</span>
           </div>
-          <div className="ContactText">
+          {/* <div className="ContactText">
             My LinkedIn:
             {' '}
             <a
@@ -40,7 +40,7 @@ class Contact extends Component {
             >
               LinkedIn
             </a>
-          </div>
+          </div> */}
           <div className="ContactText">
             Currently living in:
             {' '}
