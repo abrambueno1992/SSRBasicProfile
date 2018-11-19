@@ -43,7 +43,7 @@
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
@@ -108,7 +108,7 @@
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
@@ -169,14 +169,14 @@
   }
 
   .AboutResources {
-    width: 60%;
-    margin-left: 20%;
+    width: 30%;
+    margin-left: 35%;
     margin-top: 30%;
     position: absolute;
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
@@ -218,7 +218,7 @@
     position: absolute;
     background: black;
     opacity: 0.48;
-    border: 1px solid violet;
+    border: none;
   }
   .IntroText {
     width: 100%;
@@ -241,7 +241,7 @@
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
@@ -281,7 +281,7 @@
     position: absolute;
     background: black;
     opacity: 0.48;
-    border: 1px solid violet;
+    border: none;
   }
   .IntroText {
     width: 100%;
@@ -302,7 +302,7 @@
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
@@ -345,7 +345,7 @@
     position: absolute;
     background: black;
     opacity: 0.48;
-    border: 1px solid violet;
+    border: none;
   }
   .IntroText {
     width: 100%;
@@ -366,7 +366,7 @@
     background: black;
     opacity: 0.35;
     text-emphasis: bold;
-    border: 1px solid violet;
+    border: none;
   }
   .AboutTopic {
     color: orange;
