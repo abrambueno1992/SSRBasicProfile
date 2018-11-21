@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './About.css';
+import './styles/About.css';
 import Particles from 'react-particles-js';
 import Head from 'next/head';
 
@@ -14,7 +14,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-import withLayout from '../lib/withLayout';
+import withLayout from '../../lib/withLayout';
 
 library.add(fab, faCheckSquare, faCoffee);
 
@@ -139,7 +139,9 @@ class About extends Component {
               <Typography variant="h5" component="h3">
                 <FontAwesomeIcon icon="check-square" />
               </Typography>
-              <Typography className="AboutTopic" component="p">The Hack Hive</Typography>
+              <Typography className="AboutTopic" component="p">
+                The Hack Hive
+              </Typography>
             </a>
           </Paper>
         </div>

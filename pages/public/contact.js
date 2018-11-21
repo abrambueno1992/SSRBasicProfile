@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Contact.css';
+import './styles/Contact.css';
 import Particles from 'react-particles-js';
 import Head from 'next/head';
-import withLayout from '../lib/withLayout';
+import withLayout from '../../lib/withLayout';
 
 class Contact extends Component {
   constructor(props) {

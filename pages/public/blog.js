@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import './Blog.css';
+import './styles/Blog.css';
 import Head from 'next/head';
 import Particles from 'react-particles-js';
-import withLayout from '../lib/withLayout';
+import withLayout from '../../lib/withLayout';
 
 class Blog extends Component {
   constructor(props) {

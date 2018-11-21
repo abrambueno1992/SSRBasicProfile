@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 // import NoteIMG2 from '../FullStack';
 import Head from 'next/head';
 import Particles from 'react-particles-js';
-import './Projects.css';
-import withLayout from '../lib/withLayout';
+import './styles/Projects.css';
+import withLayout from '../../lib/withLayout';
 
 class Project extends Component {
   constructor(props) {
