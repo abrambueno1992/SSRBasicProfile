@@ -14,15 +14,15 @@ class Project extends Component {
         typeof InstallTrigger !== 'undefined'
           ? {
             fullStack:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp',
-            frontEnd:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp',
-          }
-          : {
-            fullStack:
                 'https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.png',
             frontEnd:
                 'https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.png',
+          }
+          : {
+            fullStack:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp',
+            frontEnd:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp',
           },
     };
   }
