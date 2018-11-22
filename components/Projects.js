@@ -18,12 +18,12 @@ export default class Project extends Component {
                         <a href="https://lambda-notes-backend.netlify.com/" className="ProjectName">Lambda Notes</a>
                         <a href="https://github.com/abrambueno1992/front-end-project-week" className="ProjectName">Github Code</a>
                     </h2>
-                    <img style={{ height: '50%', width: '50%' }} src="../FullStack.png" />
+                    <img style={{ height: '50%', width: '50%' }} src="https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.jp2" />
                     <h2>Back End Project:
                         <a href="https://abrambueno-lamdanotes.netlify.com/" className="ProjectName">Built A database with authentication for Lambda Notes</a>
                         <a href="https://github.com/abrambueno1992/backendHeroku" className="ProjectName">Github Code</a>
                     </h2>
-                    <img style={{ height: '50%', width: '50%' }} src='./FullStack.png' />
+                    <img style={{ height: '50%', width: '50%' }} src='https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.jp2' />
                     <h2>Capstone Project:
                         <a href="https://labs-next-leaderboard.herokuapp.com/" className="ProjectName">Next Steps: full stack application</a>
                         <a href="https://github.com/Lambda-School-Labs/CS9-LambdaNextLeaderboard" className="ProjectName">Github Code</a>

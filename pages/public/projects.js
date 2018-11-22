@@ -9,9 +9,28 @@ import withLayout from '../../lib/withLayout';
 class Project extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      images:
+        typeof InstallTrigger === 'undefined'
+          ? {
+            fullStack:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp',
+            frontEnd:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp',
+          }
+          : {
+            fullStack:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.jp2',
+            frontEnd:
+                'https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.jp2',
+          },
+    };
   }
 
+  static getInitialProps({ query }) {}
+
   render() {
+    console.log('this state', this.state, this.state.images.fullStack, this.state.fullStack);
     return (
       <div className="MainProject">
         <Head>
@@ -40,10 +59,7 @@ class Project extends Component {
               Github Code
             </a>
           </h2>
-          <img
-            className="Images"
-            src="https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp"
-          />
+          <img className="Images" src={this.state.images.frontEnd} />
           <h2>
             Back End Project:
             <a
@@ -61,10 +77,7 @@ class Project extends Component {
               Github Code
             </a>
           </h2>
-          <img
-            className="Images"
-            src="https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp"
-          />
+          <img className="Images" src={this.state.images.fullStack} />
           <h2>
             Capstone Project:
             <a
