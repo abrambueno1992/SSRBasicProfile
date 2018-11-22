@@ -93,7 +93,7 @@ class Navigation extends Component {
           {this.state.index !== 1 ? (
             <div>
               <li>
-                <Link href="/projects">
+                <Link href="/public/projects" as="/projects">
                   <a>
                     <Button variant="contained" color="primary" size={this.state.size}>
                       Projects
@@ -105,7 +105,7 @@ class Navigation extends Component {
           ) : (
             <div>
               <li>
-                <Link href="/projects">
+                <Link href="/public/projects" as="/projects">
                   <a>
                     <Button variant="contained" color="secondary" size={this.state.size}>
                       Projects
@@ -119,7 +119,7 @@ class Navigation extends Component {
           {this.state.index !== 2 ? (
             <div>
               <li>
-                <Link href="/about">
+                <Link href="/public/about" as="/about">
                   <a>
                     <Button variant="contained" color="primary" size={this.state.size}>
                       About
@@ -131,7 +131,7 @@ class Navigation extends Component {
           ) : (
             <div>
               <li>
-                <Link href="/about">
+                <Link href="/public/about" as="/about">
                   <a>
                     <Button variant="contained" color="secondary" size={this.state.size}>
                       About
@@ -145,7 +145,7 @@ class Navigation extends Component {
           {this.state.index !== 3 ? (
             <div>
               <li>
-                <Link href="/blog">
+                <Link href="/public/blog" as="/blog">
                   <a>
                     <Button variant="contained" color="primary" size={this.state.size}>
                       Blog
@@ -157,7 +157,7 @@ class Navigation extends Component {
           ) : (
             <div>
               <li>
-                <Link href="/blog">
+                <Link href="/public/blog" as="/blog">
                   <a>
                     <Button variant="contained" color="secondary" size={this.state.size}>
                       Blog
@@ -171,7 +171,7 @@ class Navigation extends Component {
           {this.state.index !== 4 ? (
             <div>
               <li>
-                <Link href="/contact">
+                <Link href="/public/contact" as="/contact">
                   <a>
                     <Button variant="contained" color="primary" size={this.state.size}>
                       Contact
@@ -183,7 +183,7 @@ class Navigation extends Component {
           ) : (
             <div>
               <li>
-                <Link href="/contact">
+                <Link href="/public/contact" as="/contact">
                   <a>
                     <Button variant="contained" color="secondary" size={this.state.size}>
                       Contact
