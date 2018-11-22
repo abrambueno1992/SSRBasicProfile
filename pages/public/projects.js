@@ -11,7 +11,7 @@ class Project extends Component {
     super(props);
     this.state = {
       images:
-        typeof InstallTrigger === 'undefined'
+        typeof InstallTrigger !== 'undefined'
           ? {
             fullStack:
                 'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp',
@@ -20,9 +20,9 @@ class Project extends Component {
           }
           : {
             fullStack:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.jp2',
+                'https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.png',
             frontEnd:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.jp2',
+                'https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.png',
           },
     };
   }
@@ -97,7 +97,7 @@ class Project extends Component {
           </h2>
           <img
             className="Images"
-            src="https://res.cloudinary.com/unemployed/image/upload/v1542650579/LeadboardExample.webp"
+            src="https://labs-next-leaderboard.herokuapp.com/static/media/LeadboardExample.ff00310b.PNG"
           />
         </div>
         <div className="ParticlesStyleProjects">
