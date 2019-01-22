@@ -14,7 +14,7 @@ import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import { faCheckSquare, faCoffee } from '@fortawesome/free-solid-svg-icons';
 
-import withLayout from '../../lib/withLayout';
+import withLayout from '../lib/withLayout';
 
 library.add(fab, faCheckSquare, faCoffee);
 

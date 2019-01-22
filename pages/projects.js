@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 import Head from 'next/head';
 import Particles from 'react-particles-js';
 import './styles/Projects.css';
-import withLayout from '../../lib/withLayout';
+import withLayout from '../lib/withLayout';
 
 class Project extends Component {
   constructor(props) {
@@ -42,26 +42,9 @@ class Project extends Component {
         </Head>
         <div className="ProjectDetails">
           <h1>Three main Projects</h1>
+          {/*  <<<<<<<>>>>>>>>>> <<<<<<<>>>>>>>>>> */}
           <h2>
-            Front End Project:
-            <a
-              target="_blank"
-              href="https://lambda-notes-backend.netlify.com/"
-              className="ProjectName"
-            >
-              Lambda Notes
-            </a>
-            <a
-              target="_blank"
-              href="https://github.com/abrambueno1992/front-end-project-week"
-              className="ProjectName"
-            >
-              Github Code
-            </a>
-          </h2>
-          <img className="Images" src={this.state.images.frontEnd} />
-          <h2>
-            Back End Project:
+            Full Stack Project:
             <a
               target="_blank"
               href="https://abrambueno-lamdanotes.netlify.com/"
@@ -78,6 +61,7 @@ class Project extends Component {
             </a>
           </h2>
           <img className="Images" src={this.state.images.fullStack} />
+          {/* <<<<<<<>>>>>>>>>> <<<<<<<>>>>>>>>>> */}
           <h2>
             Capstone Project:
             <a
@@ -98,6 +82,23 @@ class Project extends Component {
           <img
             className="Images"
             src="https://labs-next-leaderboard.herokuapp.com/static/media/LeadboardExample.ff00310b.PNG"
+          />
+          {/*  <<<<<<<>>>>>>>>>> <<<<<<<>>>>>>>>>> */}
+          <h2>
+            Mars Rover:
+            <a href="https://agitated-bell-528514.netlify.com/" className="ProjectName">
+              Mars Rover
+            </a>
+            <a
+              href="https://github.com/abrambueno1992/SocrateCC/tree/master/marsrover"
+              className="ProjectName"
+            >
+              Github Code
+            </a>
+          </h2>
+          <img
+            className="Images"
+            src="https://res.cloudinary.com/unemployed/image/upload/v1548108444/Screenshot_from_2019-01-21_15-53-13.png"
           />
         </div>
         <div className="ParticlesStyleProjects">

@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import './styles/Contact.css';
-import Particles from 'react-particles-js';
+import './styles/Blog.css';
 import Head from 'next/head';
-import withLayout from '../../lib/withLayout';
+import Particles from 'react-particles-js';
+import withLayout from '../lib/withLayout';
 
-class Contact extends Component {
+class Blog extends Component {
   constructor(props) {
     super(props);
   }
 
   render() {
     return (
-      <div className="MainContact">
+      <div className="MainBlog">
         <Head>
           <title>Portfolio Project</title>
           <meta charSet="utf-8" />
@@ -19,65 +19,40 @@ class Contact extends Component {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           {/* <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=3.0, minimum-scale=0.86"></meta> */}
         </Head>
-        <div className="ContactIntro">
-          <div className="ContactText">
-            My email:
-            {' '}
-            <span className="ContactDetails">abrambueno1992@gmail.com</span>
-          </div>
-          <div className="ContactText">
-            My phone number:
-            {' '}
-            <span className="ContactDetails">773-240-4646</span>
-          </div>
-          {/* <div className="ContactText">
-            My LinkedIn:
-            {' '}
-            <a
-              target="_blank"
-              className="ContactDetails"
-              href="https://www.linkedin.com/in/abraham-bueno-b2871ba4/"
-            >
-              LinkedIn
-            </a>
-          </div> */}
-          <div className="ContactText">
-            Currently living in:
-            {' '}
-            <span className="ContactDetails">Chicago, willing to relocate.</span>
-          </div>
+        <div className="BlogIntro">
+          <h1>Coming SOON</h1>
         </div>
-        <div className="ParticlesStyleContact">
+        <div className="ParticlesBlog">
           <Particles
             params={{
               particles: {
                 number: {
-                  value: 100,
+                  value: 120,
                   density: {
                     enable: false,
                   },
                 },
                 size: {
-                  value: 1,
+                  value: 10,
                   random: true,
                   anim: {
-                    speed: 2,
+                    speed: 10,
                     size_min: 0.3,
                     size: 0.3,
                   },
                 },
                 line_linked: {
                   enable: false,
-                  shadow: {
-                    enable: true,
-                    color: '#3CA9D1',
-                    blur: 0,
-                  },
+                  // shadow: {
+                  //   enable: true,
+                  //   color: "#3CA9D1",
+                  //   blur: 0
+                  // }
                 },
                 move: {
                   random: true,
                   speed: 3,
-                  direction: 'top',
+                  direction: 'bottom-left',
                   out_mode: 'out',
                 },
               },
@@ -106,12 +81,11 @@ class Contact extends Component {
                 },
               },
             }}
-            className="ParticlesScontact"
+            className="ParticlesSblog"
           />
         </div>
       </div>
     );
   }
 }
-
-export default withLayout(Contact);
+export default withLayout(Blog);

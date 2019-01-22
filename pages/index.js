@@ -1,5 +1,5 @@
 import Particles from 'react-particles-js';
-import './public/styles/Home.css';
+import './styles/Home.css';
 import Head from 'next/head';
 import React, { Component } from 'react';
 
