@@ -1,36 +1,41 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
 // import NoteIMG from '../FrontEnd';
 // import NoteIMG2 from '../FullStack';
-import Head from 'next/head';
-import Particles from 'react-particles-js';
-import './styles/Projects.css';
-import withLayout from '../lib/withLayout';
+import Head from "next/head";
+import Particles from "react-particles-js";
+import "./styles/Projects.css";
+import withLayout from "../lib/withLayout";
 
 class Project extends Component {
   constructor(props) {
     super(props);
     this.state = {
       images:
-        typeof InstallTrigger !== 'undefined'
+        typeof InstallTrigger !== "undefined"
           ? {
-            fullStack:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.png',
-            frontEnd:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.png',
-          }
+              fullStack:
+                "https://res.cloudinary.com/unemployed/image/upload/v1542861715/FullStackJP.png",
+              frontEnd:
+                "https://res.cloudinary.com/unemployed/image/upload/v1542861733/FrontEndJP.png"
+            }
           : {
-            fullStack:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp',
-            frontEnd:
-                'https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp',
-          },
+              fullStack:
+                "https://res.cloudinary.com/unemployed/image/upload/v1542650580/FullStack.webp",
+              frontEnd:
+                "https://res.cloudinary.com/unemployed/image/upload/v1542650580/FrontEnd.webp"
+            }
     };
   }
 
   static getInitialProps({ query }) {}
 
   render() {
-    console.log('this state', this.state, this.state.images.fullStack, this.state.fullStack);
+    console.log(
+      "this state",
+      this.state,
+      this.state.images.fullStack,
+      this.state.fullStack
+    );
     return (
       <div className="MainProject">
         <Head>
@@ -86,10 +91,15 @@ class Project extends Component {
           {/*  <<<<<<<>>>>>>>>>> <<<<<<<>>>>>>>>>> */}
           <h2>
             Mars Rover:
-            <a href="https://agitated-bell-528514.netlify.com/" className="ProjectName">
+            <a
+              target="_blank"
+              href="https://agitated-bell-528514.netlify.com/"
+              className="ProjectName"
+            >
               Mars Rover
             </a>
             <a
+              target="_blank"
               href="https://github.com/abrambueno1992/SocrateCC/tree/master/marsrover"
               className="ProjectName"
             >
@@ -108,8 +118,8 @@ class Project extends Component {
                 number: {
                   value: 180,
                   density: {
-                    enable: false,
-                  },
+                    enable: false
+                  }
                 },
                 size: {
                   value: 1,
@@ -117,48 +127,48 @@ class Project extends Component {
                   anim: {
                     speed: 2,
                     size_min: 0.3,
-                    size: 0.3,
-                  },
+                    size: 0.3
+                  }
                 },
                 line_linked: {
                   enable: false,
                   shadow: {
                     enable: true,
-                    color: '#3CA9D1',
-                    blur: 0,
-                  },
+                    color: "#3CA9D1",
+                    blur: 0
+                  }
                 },
                 move: {
                   random: true,
                   speed: 3,
-                  direction: 'top',
-                  out_mode: 'out',
-                },
+                  direction: "top",
+                  out_mode: "out"
+                }
               },
               interactivity: {
                 events: {
                   onhover: {
                     enable: true,
-                    mode: 'grab',
+                    mode: "grab"
                   },
                   onclick: {
                     enable: true,
-                    mode: 'bubble',
-                  },
-                },
+                    mode: "bubble"
+                  }
+                }
               },
               modes: {
                 bubble: {
                   distance: 100,
                   duration: 2,
                   size: 0,
-                  opacity: 0,
+                  opacity: 0
                 },
                 repulse: {
                   distance: 400,
-                  duration: 4,
-                },
-              },
+                  duration: 4
+                }
+              }
             }}
             className="ParticlesSprojects"
           />
