@@ -8,7 +8,7 @@ const handle = app.getRequestHandler()
 app.prepare()
   .then(() => {
     const server = express()
-
+    console.log("running")
     server.get('/', (req, res) => {
       const actualPage = '/'
       app.render(req, res, actualPage)
