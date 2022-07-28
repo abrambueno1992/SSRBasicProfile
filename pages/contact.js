@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './styles/Contact.css';
-import Particles from 'react-particles-js';
+// import './styles/Contact.css';
+import Particles from 'react-tsparticles';
 import Head from 'next/head';
 import withLayout from '../lib/withLayout';
 

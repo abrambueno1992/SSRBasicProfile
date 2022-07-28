@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import './styles/About.css';
-import Particles from 'react-particles-js';
+// import './styles/About.css';
+import Particles from 'react-tsparticles';
 import Head from 'next/head';
 
 import PropTypes from 'prop-types';
-import Paper from '@material-ui/core/Paper';
-import Typography from '@material-ui/core/Typography';
+import Paper from '@mui/material/Paper';
+import Typography from '@mui/material/Typography';
 
-import { withStyles } from '@material-ui/core/styles';
+import withStyles from '@mui/styles/withStyles';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -20,7 +20,7 @@ library.add(fab, faCheckSquare, faCoffee);
 
 const styles = theme => ({
   root: {
-    ...theme.mixins.gutters(),
+    // ...theme.mixins.gutters(),
     paddingTop: theme.spacing.unit * 2,
     paddingBottom: theme.spacing.unit * 2,
     marginBottom: 5,
@@ -28,7 +28,7 @@ const styles = theme => ({
     textAlign: 'center',
   },
   icons: {
-    ...theme.mixins.gutters(),
+    // ...theme.mixins.gutters(),
     paddingTop: theme.spacing.unit * 2,
     paddingBottom: theme.spacing.unit * 2,
     marginBottom: 5,

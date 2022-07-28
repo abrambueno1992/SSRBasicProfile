@@ -2,8 +2,8 @@ import React, { Component } from "react";
 // import NoteIMG from '../FrontEnd';
 // import NoteIMG2 from '../FullStack';
 import Head from "next/head";
-import Particles from "react-particles-js";
-import "./styles/Projects.css";
+import Particles from "react-tsparticles";
+// import "./styles/Projects.css";
 import withLayout from "../lib/withLayout";
 
 class Project extends Component {

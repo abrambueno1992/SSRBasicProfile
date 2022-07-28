@@ -1,9 +1,9 @@
 import * as React from "react";
 import Head from "next/head";
 
-type Props = {|
-  children?: React.Node
-|};
+// type Props = {|
+//   children?: React.Node
+// |};
 
 const App = ({ children }: Props) => (
   <div>

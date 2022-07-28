@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import './Navigation.css';
-import Button from '@material-ui/core/Button';
+// import './Navigation.css';
+import Button from '@mui/material/Button';
 
 class Navigation extends Component {
   constructor(props) {

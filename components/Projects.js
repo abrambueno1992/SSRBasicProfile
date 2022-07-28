@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Particles from "react-particles-js";
+import Particles from "react-tsparticles";
 import Navigation from "./Navigation";
 // import NoteIMG from '../FrontEnd.png';
 // import NoteIMG2 from '../FullStack.png';
-import "../pages/Projects.css";
+// import "../pages/Projects.css";
 
 export default class Project extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './styles/Blog.css';
+// import './styles/Blog.css';
 import Head from 'next/head';
-import Particles from 'react-particles-js';
+import Particles from 'react-tsparticles';
 import withLayout from '../lib/withLayout';
 
 class Blog extends Component {
