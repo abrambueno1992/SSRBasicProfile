@@ -14,7 +14,9 @@ class App extends Component {
   render() {
     return (
       <div>
-          Hannah was here!
+          <h1>Hannah was here! with h1 tag</h1>
+          <p>Hannah also knows about paragraphs</p>
+          
       </div>
 
     )
