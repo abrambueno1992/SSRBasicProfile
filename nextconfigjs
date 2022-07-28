@@ -1,4 +1,5 @@
 const withCSS = require('@zeit/next-css');
+console.log('random')
 
 module.exports = withCSS(
   {
